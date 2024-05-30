@@ -13,23 +13,216 @@ format:
     view-distance: 10
 ---
 
-## Quarto
+## Hva er bærekraftig utvikling? {auto-animate="true" auto-animate-easing="ease-in-out"}
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+::: columns
+::: {.column width="50%"}
+Vekst
 
-## Running Code
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 75px; height: 50px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+[BNP]{style="color: green;"}
+:::
+:::
+:::
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+::: {.column width="50%"}
+Utvikling
 
-```{r}
-1 + 1
-```
+::: r-stack
+::: {data-id="box1" style="background:#3fb618; width: 350px; height: 350px; border-radius: 200px;"}
+:::
 
-You can add options to executable code like this
+::: {data-id="box2" style="background: #2780e3; width: 250px; height: 250px; border-radius: 200px;"}
+:::
 
-```{r}
-#| echo: false
-2 * 2
-```
+::: {data-id="box3" style="background: #e83e8c; width: 150px; height: 150px; border-radius: 200px;"}
+:::
 
-The `echo: false` option disables the printing of code (only output is displayed).
+::: {data-id="box4" style="background: #A42820; width: 75px; height: 75px; border-radius: 200px;"}
+:::
+:::
+:::
+:::
+
+::: notes
+For å forstå bærekraftig utvikling er det viktig å forstå forskjellen mellom vekst og utvikling. Vekst betyr å bli større eller øke i mengde, mens utvikling betyr å forbedre eller utvikle kvaliteten.
+
+Økonomisk vekst måles vanligvis ved prosentvis endring i reelt nasjonalprodukt per innbygger. Økning i nasjonalinntekt per innbygger gir imidlertid bare begrenset innsikt i bærekraftig utvikling.
+:::
+
+## Hva er bærekraftig utvikling? {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+::: columns
+::: {.column width="50%"}
+Vekst
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 450px; height: 300px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 40px;"}
+[BNP $\uparrow$]{style="color: green;"}
+:::
+:::
+:::
+
+::: {.column width="50%"}
+Utvikling
+
+::: r-stack
+::: {data-id="box1" style="background:#3fb618; width: 350px; height: 350px; border-radius: 200px;"}
+:::
+
+::: {data-id="box2" style="background: #2780e3; width: 250px; height: 250px; border-radius: 200px;"}
+:::
+
+::: {data-id="box3" style="background: #e83e8c; width: 150px; height: 150px; border-radius: 200px;"}
+:::
+
+::: {data-id="box4" style="background: #A42820; width: 75px; height: 75px; border-radius: 200px;"}
+:::
+:::
+:::
+:::
+
+::: notes
+For å forstå bærekraftig utvikling er det viktig å forstå forskjellen mellom vekst og utvikling. Vekst betyr å bli større eller øke i mengde, mens utvikling betyr å forbedre eller utvikle kvaliteten.
+
+Økonomisk utvikling omfatter mer enn bare økning i gjennomsnittlig inntekt. Det inkluderer også:
+
+Reduksjon av fattigdom. Forming av menneskelig kapital (utdanning, ernæring, helse). Strukturelle endringer i økonomien (overgang fra jordbruk til industri og tjenester). Utvikling av institusjoner som effektivt fordeler ressurser. Økt internasjonal integrasjon. Forbedring av livskvalitet, inkludert ikke-materielle aspekter som frihet, sikkerhet og rettferdighet.
+:::
+
+## Hva er bærekraftig utvikling? {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+::: columns
+::: {.column width="50%"}
+Økonomisk vekst
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 450px; height: 300px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 40px;"}
+[BNP $\uparrow$]{style="color: green;"}
+:::
+:::
+:::
+
+::: {.column width="50%"}
+Økonomisk utvikling
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 250px; height: 150px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Fattigdom $\downarrow$
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #2780e3; width: 250px; height: 150px; margin: -160px 0 10px 260px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Humankapital $\uparrow$
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 250px; height: 150px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Instutisjoner $\uparrow$
+:::
+
+::: {data-id="box4" auto-animate-delay="0.3" style="background: #A42820; width: 250px; height: 150px; margin: -160px 10px 10px 260px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Livskvalitet $\uparrow$
+:::
+:::
+:::
+:::
+
+::: notes
+For å forstå bærekraftig utvikling er det viktig å forstå forskjellen mellom vekst og utvikling. Vekst betyr å bli større eller øke i mengde, mens utvikling betyr å forbedre eller utvikle kvaliteten.
+
+Økonomisk utvikling omfatter mer enn bare økning i gjennomsnittlig inntekt. Det inkluderer også:
+
+Reduksjon av fattigdom. Forming av menneskelig kapital (utdanning, ernæring, helse). Strukturelle endringer i økonomien (overgang fra jordbruk til industri og tjenester). Utvikling av institusjoner som effektivt fordeler ressurser. Økt internasjonal integrasjon. Forbedring av livskvalitet, inkludert ikke-materielle aspekter som frihet, sikkerhet og rettferdighet.
+:::
+
+## Hva er bærekraftig utvikling? {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+::: columns
+::: {.column width="50%"}
+Bærekraftig utvikling
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+:::
+
+::: {data-id="box3" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: -110px 10px 10px 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Min nytte idag
+:::
+:::
+:::
+
+::: {.column width="50%"}
+Dunno yet
+:::
+:::
+
+::: notes
+Bærekraftig utvikling legger til et dynamisk element til økonomisk utvikling ved å ta hensyn til fremtidige generasjoners behov. Det handler om å møte dagens behov uten å gå på bekostning av fremtidige generasjoners evne til å møte sine egne behov.
+:::
+
+## Hva er bærekraftig utvikling? {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+::: columns
+::: {.column width="50%"}
+Bærekraftig utvikling
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Min nytte idag
+:::
+
+::: {data-id="box4" auto-animate-delay="0" style="background: #002b36; width: 150px; height: 100px; margin: -110px 10px 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 30px;"}
+=
+:::
+
+::: {data-id="box3" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: -110px 10px 10px 290px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Fremtidens nytte
+:::
+:::
+:::
+
+::: {.column width="50%"}
+Dunno yet
+:::
+:::
+
+::: notes
+Bærekraftig utvikling legger til et dynamisk element til økonomisk utvikling ved å ta hensyn til fremtidige generasjoners behov. Det handler om å møte dagens behov uten å gå på bekostning av fremtidige generasjoners evne til å møte sine egne behov.
+:::
+
+## Offentlige inngrep for å fremme bærekraftig utvikling
+
+::: notes
+Forstår hvorfor det kan være nødvendig med offentlige inngrep for å oppnå bærekraftig utvikling 2 min
+:::
+
+## Private markeder og bærekraftig utvikling
+
+::: notes
+hvorfor det er vanskelig for private markeder å oppnå bærekraftig utvikling: Foreslått tidsbruk: 2 min
+:::
+
+## Offentlig inngrep: Eksempel
+
+![](dokumentobjekter/figurer/plastposer.png){width="520"}
+
+::: notes
+Kan gi et eksempel på og forklare et offentlig inngrep som har til mål å fremme bærekraftig utvikling. 2 min her
+:::
+
+## Offentlig inngrep eksemepl forts
+
+::: notes
+2 min her
+:::
+
+## Hvorfor kan det være utfordrende å få til offentlige inngrep?
+
+::: notes
+Forstår hvorfor det kan være utfordrende å få til offentlige inngrep og internasjonale avtaler som fremmer bærekraftig utvikling. Foreslått tidsbruk: 3 min
+:::
+
+## Hvorfor kan det være utfordrende å få til offentlige inngrep forts?
+
+::: notes
+:::
