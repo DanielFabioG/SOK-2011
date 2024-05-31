@@ -13,6 +13,33 @@ format:
     view-distance: 10
 ---
 
+## Struktur {auto-animate="true"}
+
+::: {.fragment .fade-down fragment-index="1"}
+
+Hva er bærekraftig utvikling?
+:::
+
+::: {.fragment .fade-down fragment-index="2"}
+Offentlige inngrep for å fremme bærekraftig utvikling
+:::
+
+::: {.fragment .fade-down fragment-index="3"}
+Private markeder og bærekraftig utvikling
+:::
+
+::: {.fragment .fade-down fragment-index="4"}
+Offentlig inngrep: Eksempel
+:::
+
+::: {.fragment .fade-down fragment-index="5"}
+Hvorfor kan det være utfordrende å få til offentlige inngrep?
+:::
+
+::: {.fragment .fade-down fragment-index="6"}
+Konklusjon
+:::
+
 ## Hva er bærekraftig utvikling? {auto-animate="true" auto-animate-easing="ease-in-out"}
 
 ::: columns
@@ -139,20 +166,20 @@ Reduksjon av fattigdom. Forming av menneskelig kapital (utdanning, ernæring, he
 
 ::: columns
 ::: {.column width="50%"}
-Bærekraftig utvikling
+**Bærekraftig utvikling**
 
 ::: container
 ::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
 :::
 
 ::: {data-id="box3" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: -110px 10px 10px 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
-Min nytte idag
+Vår nytte idag
 :::
 :::
 :::
 
 ::: {.column width="50%"}
-Dunno yet
+**Effekter av klimaendringer**
 :::
 :::
 
@@ -164,11 +191,11 @@ Bærekraftig utvikling legger til et dynamisk element til økonomisk utvikling v
 
 ::: columns
 ::: {.column width="50%"}
-Bærekraftig utvikling
+**Bærekraftig utvikling**
 
 ::: container
 ::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
-Min nytte idag
+Vår nytte idag
 :::
 
 ::: {data-id="box4" auto-animate-delay="0" style="background: #002b36; width: 150px; height: 100px; margin: -110px 10px 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 30px;"}
@@ -182,21 +209,170 @@ Fremtidens nytte
 :::
 
 ::: {.column width="50%"}
-Dunno yet
+**Effekter av klimaendringer**
 :::
 :::
 
 ::: notes
 Bærekraftig utvikling legger til et dynamisk element til økonomisk utvikling ved å ta hensyn til fremtidige generasjoners behov. Det handler om å møte dagens behov uten å gå på bekostning av fremtidige generasjoners evne til å møte sine egne behov.
+
+Predikerte effekter av klimaendringer 
+Økte temperaturer: Kan føre til mer ekstremvær, som hetebølger, tørke, flom og skogbranner. 
+Stigende havnivå: Kan true kystsamfunn og økosystemer. 
+Endringer i nedbørsmønstre: Kan påvirke matproduksjon og vanntilgang. 
+Tap av biologisk mangfold: Kan føre til utryddelse av arter og tap av økosystemtjenester. 
+Negative helseeffekter: Kan øke risikoen for sykdommer og død.
+:::
+
+## Hva er bærekraftig utvikling? {auto-animate="true"}
+
+::: columns
+::: {.column width="50%"}
+**Bærekraftig utvikling**
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Vår nytte idag
+:::
+
+::: {data-id="box4" auto-animate-delay="0" style="background: #002b36; width: 150px; height: 100px; margin: -110px 10px 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 30px;"}
+=
+:::
+
+::: {data-id="box3" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: -110px 10px 10px 290px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Fremtidens nytte
+:::
+::: {data-id="box6" auto-animate-delay="0" .fade-up}
+![](dokumentobjekter/figurer/dystopian_future.jpeg){width="450"}
+:::
+:::
+:::
+
+::: {.column width="50%"}
+**Effekter av klimaendringer**
+
+::: {data-id="box5" auto-animate-delay="0" style="color: red;" .fade-down}
+Økte temperaturer
+
+Stigende havnivå
+
+Endringer i nedbørsmønstre
+
+Tap av biologisk mangfold
+
+Negative helseeffekter
+:::
+:::
+:::
+
+::: notes
+Bærekraftig utvikling legger til et dynamisk element til økonomisk utvikling ved å ta hensyn til fremtidige generasjoners behov. Det handler om å møte dagens behov uten å gå på bekostning av fremtidige generasjoners evne til å møte sine egne behov.
+
+**Predikerte effekter av klimaendringer** 
+
+Økte temperaturer: Kan føre til mer ekstremvær, som hetebølger, tørke, flom og skogbranner. 
+
+Stigende havnivå: Kan true kystsamfunn og økosystemer. 
+
+Endringer i nedbørsmønstre: Kan påvirke matproduksjon og vanntilgang. 
+
+Tap av biologisk mangfold: Kan føre til utryddelse av arter og tap av økosystemtjenester. 
+
+Negative helseeffekter: Kan øke risikoen for sykdommer og død.
+:::
+
+
+## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate=true auto-animate-easing="ease-in-out"}
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 100px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Miljø
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #2780e3; width: 250px; height: 250px; border-radius: 200px; margin: -255px 10px 10px 500px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Økonomi
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Sosialt
+:::
+:::
+
+
+## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate=true auto-animate-easing="ease-in-out"}
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Miljø
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #2780e3; width: 250px; height: 250px; border-radius: 200px; margin: -255px 10px 10px 400px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Økonomi
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 250px; height: 250px; border-radius: 200px; margin: -110px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Sosialt
+:::
+
+::: {data-id="box4" auto-animate-delay="0.5"  style="background: rgba(255, 255, 255, 0); width: 250px; height: 250px; border-radius: 200px; margin: -350px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+**Bærekraft**
+:::
+:::
+
+
+::: notes
+Hvorfor er bærekraftig utvikling så vanskelig?
+
+Man må ta hensyn til økonomiske, sosiale og miljømessige hensyn. Disse hensynene kan ofte være motstridende. For eksempel kan økonomisk vekst føre til økt forurensning og tap av biologisk mangfold. På den annen side kan miljøvern tiltak som reduserer forurensning og bevarer biologisk mangfold, føre til høyere kostnader og lavere økonomisk vekst.
+
+Barnearbeid er et viktig hinder for bærekraftig utvikling. Det hindrer barn i å få utdanning og begrenser deres fremtidige muligheter. Å bekjempe barnearbeid krever en flerdimensjonal tilnærming som inkluderer utdanning, sosial velferd, arbeidsplasser for unge og håndheving av lover.
+
+Profit - økonomisk fremgang: Å ha et langsiktig perspektiv, forbli konkurransedyktig og skape økonomisk verdi.
+
+Planet - miljømessig ansvar: Å sikre at bedriftens aktivitet tar hensyn til miljøet, og strebe etter kontinuerlige forbedringer.
+
+People - sosiale forhold: Å ta hensyn til lokalmiljø og samfunnet ellers. Å inkludere sosiale, kulturelle og politiske spørsmål som er relevant for kjernevirksomheten.
+
+:::
+
+
+## Problemet med private markeder
+
+::: {.fragment .fade-down fragment-index="1"}
+Private markeder tar ikke hensyn til kostnadene som påføres samfunnet av forurensning og andre negative miljøpåvirkninger.
+:::
+
+::: {.fragment .fade-down fragment-index="2"}
+Det kan være vanskelig for private aktører å samarbeide om å løse felles problemer, som klimaendringer.
+:::
+
+::: {.fragment .fade-down fragment-index="3"}
+
+Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner.
+:::
+
+::: {.fragment .fade-down fragment-index="4"}
+
+Fellesressurser, som hav og atmosfære, kan bli overutnyttet hvis det ikke finnes regler for bruk.
+
+:::
+
+
+
+
+::: notes
+Hvorfor offentlige inngrep?
+
+Eksterne effekter: Private markeder tar ikke hensyn til kostnadene som påføres samfunnet av forurensning og andre negative miljøpåvirkninger.
+
+Koordineringsproblemer: Det kan være vanskelig for private aktører å samarbeide om å løse felles problemer, som klimaendringer.
+
+Urettferdig fordeling: Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner.
+
+Tragedy of the commons: Fellesressurser, som hav og atmosfære, kan bli overutnyttet hvis det ikke finnes regler for bruk.
 :::
 
 ## Offentlige inngrep for å fremme bærekraftig utvikling
-
-::: notes
-Forstår hvorfor det kan være nødvendig med offentlige inngrep for å oppnå bærekraftig utvikling 2 min
-:::
-
-## Private markeder og bærekraftig utvikling
 
 ::: notes
 hvorfor det er vanskelig for private markeder å oppnå bærekraftig utvikling: Foreslått tidsbruk: 2 min
@@ -204,11 +380,7 @@ hvorfor det er vanskelig for private markeder å oppnå bærekraftig utvikling: 
 
 ## Offentlig inngrep: Eksempel
 
-![](dokumentobjekter/figurer/plastposer.png){width="520"}
-
-::: notes
-Kan gi et eksempel på og forklare et offentlig inngrep som har til mål å fremme bærekraftig utvikling. 2 min her
-:::
+![](dokumentobjekter/figurer/plastposer.png){width="520"} Blir nok noe annet ::: notes Kan gi et eksempel på og forklare et offentlig inngrep som har til mål å fremme bærekraftig utvikling. 2 min her :::
 
 ## Offentlig inngrep eksemepl forts
 
