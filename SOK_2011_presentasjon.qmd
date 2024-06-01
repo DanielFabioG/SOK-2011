@@ -281,6 +281,395 @@ Tap av biologisk mangfold: Kan føre til utryddelse av arter og tap av økosyste
 Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 
+## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
+
+**17 hovedmål for bærekraftig utvikling og 169 delmål**
+
+::: r-stack
+::: {data-id="box1" style="background:#eb1c2d; width: 1px; height: 1px; margin: -110px 10px 10px 0;"}
+:::
+
+::: {data-id="box2" style="background: #d3a029; width: 1px; height: 1px; margin: -110px 0 10px 160px;"}
+:::
+
+::: {data-id="box3" style="background: #279b48; width: 1px; height: 1px; margin: -110px 10px 10px 320px;"}
+:::
+
+::: {data-id="box4" style="background: #c31f33; width: 1px; height: 1px; margin: -110px 10px 10px 480px;"}
+:::
+
+::: {data-id="box5" style="background: #ef402b; width: 1px; height: 1px; margin: -110px 10px 10px 640px;"}
+:::
+
+::: {data-id="box6" style="background: #00aed9; width: 1px; height: 1px; margin: -110px 10px 10px 800px;"}
+:::
+:::
+
+::: notes
+1. Utrydde fattigdom
+2. Utrydde sult. Oppnå matsikkerhet, bedre ernæring og fremme bærekraftig landbruk
+3. Sikre og fremme god helse
+4. Sikre inkluderende og rettferdig utdanning av god kvalitet
+5. Oppnå likestilling og styrke alle kvinner og jenter
+6. Sikre bærekraftig forbruk og produksjon
+
+:::
+
+
+
+## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
+
+**17 hovedmål for bærekraftig utvikling og 169 delmål**
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #eb1c2d; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+1 NO POVERTY
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+2 ZERO HUNGER 
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+3 GOOD HEALTH AND WELL-BEING
+:::
+
+::: {data-id="box4" auto-animate-delay="0.3" style="background: #c31f33; width: 150px; height: 100px; margin: -110px 10px 10px 480px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+4 QUALITY EDUCATION
+:::
+
+::: {data-id="box5" auto-animate-delay="0.4" style="background: #ef402b; width: 150px; height: 100px; margin: -110px 10px 10px 640px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+5 GENDER EQUALITY
+:::
+
+::: {data-id="box6" auto-animate-delay="0.5" style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+6 LIVSKVALITET
+:::
+:::
+
+
+::: notes
+1. Utrydde fattigdom
+2. Utrydde sult. Oppnå matsikkerhet, bedre ernæring og fremme bærekraftig landbruk
+3. Sikre og fremme god helse
+4. Sikre inkluderende og rettferdig utdanning av god kvalitet
+5. Oppnå likestilling og styrke alle kvinner og jenter
+6. Sikre bærekraftig forbruk og produksjon
+:::
+
+
+## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
+
+**17 hovedmål for bærekraftig utvikling og 169 delmål**
+
+::: container
+
+::: {data-id="box1" style="background: #eb1c2d; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+1 NO POVERTY
+:::
+
+::: {data-id="box2"  style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+2 ZERO HUNGER 
+:::
+
+::: {data-id="box3"  style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+3 GOOD HEALTH AND WELL-BEING
+:::
+
+::: {data-id="box4" style="background: #c31f33; width: 150px; height: 100px; margin: -110px 10px 10px 480px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+4 QUALITY EDUCATION
+:::
+
+::: {data-id="box5" style="background: #ef402b; width: 150px; height: 100px; margin: -110px 10px 10px 640px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+5 GENDER EQUALITY
+:::
+
+::: {data-id="box6"  style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+6 LIVSKVALITET
+:::
+:::
+
+::: r-stack
+
+::: {data-id="box7" style="background:#fdb713; width: 1px; height: 1px; margin: -50px 10px 50px 0;"}
+:::
+
+::: {data-id="box8" style="background: #8f1838; width: 1px; height: 1px; margin: -50px 0 10px 160px;"}
+:::
+
+::: {data-id="box9" style="background: #f36d25; width: 1px; height: 1px; margin: -50px 10px 10px 320px;"}
+:::
+
+::: {data-id="box10" style="background: #e11484; width: 1px; height: 1px; margin: -50px 10px 10px 480px;"}
+:::
+
+::: {data-id="box11" style="background: #f99d26; width: 1px; height: 1px; margin: -50px 10px 10px 640px;"}
+:::
+
+::: {data-id="box12" style="background: #cf8d2a; width: 1px; height: 1px; margin: -50px 10px 10px 800px;"}
+:::
+:::
+
+::: notes
+7. Sikre tilgang til pålitelig, bærekraftig og moderne energi
+8. Fremme varig, inkluderende og bærekraftig økonomisk vekst, full sysselsetting og anstendig arbeid for alle9
+9. Bygge motstandsdyktig infrastruktur, fremme inkluderende og bærekraftig industrialisering og fremme innovasjon
+10. Redusere ulikhet i og mellom land
+11. Gjøre byer og bosetninger inkluderende, trygge, motstandsdyktige og bærekraftige
+12. Sikre bærekraftige forbruks- og produksjonsmønstre
+:::
+
+## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
+
+**17 hovedmål for bærekraftig utvikling og 169 delmål**
+
+::: container
+
+::: {data-id="box1" style="background: #eb1c2d; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+1 NO POVERTY
+:::
+
+::: {data-id="box2"  style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+2 ZERO HUNGER 
+:::
+
+::: {data-id="box3"  style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+3 GOOD HEALTH AND WELL-BEING
+:::
+
+::: {data-id="box4" style="background: #c31f33; width: 150px; height: 100px; margin: -110px 10px 10px 480px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+4 QUALITY EDUCATION
+:::
+
+::: {data-id="box5" style="background: #ef402b; width: 150px; height: 100px; margin: -110px 10px 10px 640px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+5 GENDER EQUALITY
+:::
+
+::: {data-id="box6"  style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+6 LIVSKVALITET
+:::
+
+
+::: {data-id="box7" auto-animate-delay="0" style="background: #fdb713; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+7 AFFORDABLE AND CLEAN ENERGY
+:::
+
+::: {data-id="box8" auto-animate-delay="0.1" style="background: #8f1838; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+8 DECENT WORK AND ECONOMIC GROWTH
+:::
+
+::: {data-id="box9" auto-animate-delay="0.2" style="background: #f36d25; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 17px;"}
+9 INDUSTRY, INNOVATION AND INFRASTRUCTURE
+:::
+
+::: {data-id="box10" auto-animate-delay="0.3" style="background: #e11484; width: 150px; height: 100px; margin: -110px 10px 10px 480px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+10 REDUCED INEQUALITIES
+:::
+
+::: {data-id="box11" auto-animate-delay="0.4" style="background: #f99d26; width: 150px; height: 100px; margin: -110px 10px 10px 640px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+11 SUSTAINABLE CITIES AND COMMUNITIES
+:::
+
+::: {data-id="box12" auto-animate-delay="0.5" style="background: #cf8d2a; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+12 RESPONSIBLE CONSUMPTION AND PRODUCTION
+:::
+:::
+
+::: notes
+7. Sikre tilgang til pålitelig, bærekraftig og moderne energi
+8. Fremme varig, inkluderende og bærekraftig økonomisk vekst, full sysselsetting og anstendig arbeid for alle9
+9. Bygge motstandsdyktig infrastruktur, fremme inkluderende og bærekraftig industrialisering og fremme innovasjon
+10. Redusere ulikhet i og mellom land
+11. Gjøre byer og bosetninger inkluderende, trygge, motstandsdyktige og bærekraftige
+12. Sikre bærekraftige forbruks- og produksjonsmønstre
+:::
+
+
+
+
+
+
+
+
+
+
+## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
+
+**17 hovedmål for bærekraftig utvikling og 169 delmål**
+
+::: container
+
+::: {data-id="box1" style="background: #eb1c2d; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+1 NO POVERTY
+:::
+
+::: {data-id="box2"  style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+2 ZERO HUNGER 
+:::
+
+::: {data-id="box3"  style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+3 GOOD HEALTH AND WELL-BEING
+:::
+
+::: {data-id="box4" style="background: #c31f33; width: 150px; height: 100px; margin: -110px 10px 10px 480px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+4 QUALITY EDUCATION
+:::
+
+::: {data-id="box5" style="background: #ef402b; width: 150px; height: 100px; margin: -110px 10px 10px 640px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+5 GENDER EQUALITY
+:::
+
+::: {data-id="box6"  style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+6 LIVSKVALITET
+:::
+
+::: {data-id="box7" auto-animate-delay="0" style="background: #fdb713; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+7 AFFORDABLE AND CLEAN ENERGY
+:::
+
+::: {data-id="box8" auto-animate-delay="0" style="background: #8f1838; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+8 DECENT WORK AND ECONOMIC GROWTH
+:::
+
+::: {data-id="box9" auto-animate-delay="0" style="background: #f36d25; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 17px;"}
+9 INDUSTRY, INNOVATION AND INFRASTRUCTURE
+:::
+
+::: {data-id="box10" auto-animate-delay="0" style="background: #e11484; width: 150px; height: 100px; margin: -110px 10px 10px 480px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+10 REDUCED INEQUALITIES
+:::
+
+::: {data-id="box11" auto-animate-delay="0" style="background: #f99d26; width: 150px; height: 100px; margin: -110px 10px 10px 640px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+11 SUSTAINABLE CITIES AND COMMUNITIES
+:::
+
+::: {data-id="box12" auto-animate-delay="0" style="background: #cf8d2a; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+12 RESPONSIBLE CONSUMPTION AND PRODUCTION
+:::
+:::
+
+::: r-stack
+
+::: {data-id="box13" style="background:#48773e; width: 1px; height: 1px; margin: -50px 10px 50px 0;"}
+:::
+
+::: {data-id="box14" style="background: #007dbc; width: 1px; height: 1px; margin: -50px 0 10px 160px;"}
+:::
+
+::: {data-id="box15" style="background: #3eb049; width: 1px; height: 1px; margin: -50px 10px 10px 320px;"}
+:::
+
+::: {data-id="box16" style="background: #02558b; width: 1px; height: 1px; margin: -50px 10px 10px 480px;"}
+:::
+
+::: {data-id="box17" style="background: #183668; width: 1px; height: 1px; margin: -50px 10px 10px 640px;"}
+:::
+
+::: {data-id="box18" style="background: #f4f4f4; width: 1px; height: 1px; margin: -50px 10px 10px 800px;"}
+:::
+:::
+
+::: notes
+
+:::
+
+## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
+
+**17 hovedmål for bærekraftig utvikling og 169 delmål**
+
+::: container
+
+::: {data-id="box1" style="background: #eb1c2d; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+1 NO POVERTY
+:::
+
+::: {data-id="box2"  style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+2 ZERO HUNGER 
+:::
+
+::: {data-id="box3"  style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+3 GOOD HEALTH AND WELL-BEING
+:::
+
+::: {data-id="box4" style="background: #c31f33; width: 150px; height: 100px; margin: -110px 10px 10px 480px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+4 QUALITY EDUCATION
+:::
+
+::: {data-id="box5" style="background: #ef402b; width: 150px; height: 100px; margin: -110px 10px 10px 640px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+5 GENDER EQUALITY
+:::
+
+::: {data-id="box6"  style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+6 LIVSKVALITET
+:::
+
+
+::: {data-id="box7" auto-animate-delay="0" style="background: #fdb713; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+7 AFFORDABLE AND CLEAN ENERGY
+:::
+
+::: {data-id="box8" auto-animate-delay="0.1" style="background: #8f1838; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+8 DECENT WORK AND ECONOMIC GROWTH
+:::
+
+::: {data-id="box9" auto-animate-delay="0.2" style="background: #f36d25; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 17px;"}
+9 INDUSTRY, INNOVATION AND INFRASTRUCTURE
+:::
+
+::: {data-id="box10" auto-animate-delay="0.3" style="background: #e11484; width: 150px; height: 100px; margin: -110px 10px 10px 480px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+10 REDUCED INEQUALITIES
+:::
+
+::: {data-id="box11" auto-animate-delay="0.4" style="background: #f99d26; width: 150px; height: 100px; margin: -110px 10px 10px 640px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+11 SUSTAINABLE CITIES AND COMMUNITIES
+:::
+
+::: {data-id="box12" auto-animate-delay="0.5" style="background: #cf8d2a; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+12 RESPONSIBLE CONSUMPTION AND PRODUCTION
+:::
+
+::: {data-id="box13" auto-animate-delay="0" style="background: #48773e; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+13 CLIMATE ACTION
+:::
+
+::: {data-id="box14" auto-animate-delay="0.1" style="background: #007dbc; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+14 LIFE BELOW WATER
+:::
+
+::: {data-id="box15" auto-animate-delay="0.2" style="background: #3eb049; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 17px;"}
+15 LIFE ON LAND
+:::
+
+::: {data-id="box16" auto-animate-delay="0.3" style="background: #02558b; width: 150px; height: 100px; margin: -110px 10px 10px 480px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+16 PEACE, JUSTICE AND STRONG INSTITUTIONS
+:::
+
+::: {data-id="box17" auto-animate-delay="0.4" style="background: #183668; width: 150px; height: 100px; margin: -110px 10px 10px 640px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+17 PARTNERSHIPS FOR THE GOALS
+:::
+
+::: {data-id="box18" auto-animate-delay="0.5" style="background: #f4f4f4; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: #4e90cc; font-size: 18px;"}
+18 SUSTAINABLE DEVELOPMENT GOALS
+:::
+:::
+
+::: notes
+13. Ta umiddelbare tiltak for å bekjempe klimaendringene og konsekvensene av dem
+14. Bevare og bruke hav og marine ressurser på en bærekraftig måte
+15. Beskytte, gjenopprette og fremme bærekraftig bruk av økosystemer, sikre bærekraftig skogforvaltning, bekjempe ørkenspredning, stanse og reversere landforringelse og stanse tap av biologisk mangfold
+16. Fremme fredelige og inkluderende samfunn for bærekraftig utvikling, gi tilgang til rettferdighet for alle og bygge effektive, ansvarlige og inkluderende institusjoner på alle nivåer
+17. Styrke gjennomføringen og revitalisere det globale partnerskapet for bærekraftig utvikling
+:::
+
+
+
+
+
+
+
+
+
+
 
 ## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate=true auto-animate-easing="ease-in-out"}
 
