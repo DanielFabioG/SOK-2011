@@ -13,10 +13,51 @@ format:
     view-distance: 10
 ---
 
+```{r}
+rm(list = ls())
+# import excel
+library(readr)
+library(zoo)
+library(tidyverse)
+
+temperatur <- read_table("http://vortex.nsstc.uah.edu/data/msu/v6.0/tlt/uahncdc_lt_6.0.txt")
+
+```
+```{r}
+sea_level <- read_table("https://deotb6e7tfubr.cloudfront.net/s3-edaf5da92e0ce48fb61175c28b67e95d/podaac-ops-cumulus-protected.s3.us-west-2.amazonaws.com/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V51/GMSL_TPJAOS_5.1.txt?A-userid=danielfabiog&Expires=1717248910&Signature=RwjG-WEwjwJv0slPicZSFxZTOjyVdAvEtdHrVWmMYflGR6h5I6enwhAzziskc6FVdIcJIQGx~iOl~m5nBxSF3C0b~O0RYvA8IGVMc73GX6YxFFNKIMDKhg7D1Qa9BWptD1-O9KgBw9aekgBFLZbpX3vncsuCUnkyguOWhGEUdxe~N6~YN61N87elUl2WgNJwcjdwCGVSSlesDt-pN1s5fq0D6P0N4w8AIOLAcQ7jMwQb5lc8s99d44i-p-MG-CnT0ekyAoy4iGf4OoKhxfdlcNCN33iM5FTg0uOjvqjjqSe5VSK~tA8go1XHQOZfbesGLP-0ohB-vucQki7Cu4gdjg__&Key-Pair-Id=K1M35K4VSQWD79")
+
+#save sea_level as csv
+write_csv(sea_level, "dokumentobjekter/csv/sea_level.csv")
+
+sea_level<-sea_level %>%
+  select(Mean, Data) %>%
+  rename(Year = Mean) %>%
+   tail(-51) %>%
+  mutate(Year = as.numeric(Year), Data = as.numeric(Data)) %>%
+  mutate(Data = Data + 37.91)
+
+```
+
+```{r}
+temperatur<-temperatur %>%
+  select(Year,Mo, Globe) %>% #make numeric
+  mutate(Globe = as.numeric(Globe), Globe_rollmean = rollmean(Globe, 12, fill = NA, align = "right")) %>%
+  tail(-11) %>%
+  head(-12)
+
+
+
+temperatur_sjekk <- temperatur %>%
+  group_by(Year) %>%
+  summarise(mean_rollmean = mean(Globe_rollmean, na.rm = TRUE))
+
+```
+
+
+
 ## Struktur {auto-animate="true"}
 
 ::: {.fragment .fade-down fragment-index="1"}
-
 Hva er bærekraftig utvikling?
 :::
 
@@ -216,12 +257,7 @@ Fremtidens nytte
 ::: notes
 Bærekraftig utvikling legger til et dynamisk element til økonomisk utvikling ved å ta hensyn til fremtidige generasjoners behov. Det handler om å møte dagens behov uten å gå på bekostning av fremtidige generasjoners evne til å møte sine egne behov.
 
-Predikerte effekter av klimaendringer 
-Økte temperaturer: Kan føre til mer ekstremvær, som hetebølger, tørke, flom og skogbranner. 
-Stigende havnivå: Kan true kystsamfunn og økosystemer. 
-Endringer i nedbørsmønstre: Kan påvirke matproduksjon og vanntilgang. 
-Tap av biologisk mangfold: Kan føre til utryddelse av arter og tap av økosystemtjenester. 
-Negative helseeffekter: Kan øke risikoen for sykdommer og død.
+Predikerte effekter av klimaendringer Økte temperaturer: Kan føre til mer ekstremvær, som hetebølger, tørke, flom og skogbranner. Stigende havnivå: Kan true kystsamfunn og økosystemer. Endringer i nedbørsmønstre: Kan påvirke matproduksjon og vanntilgang. Tap av biologisk mangfold: Kan føre til utryddelse av arter og tap av økosystemtjenester. Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 
 ## Hva er bærekraftig utvikling? {auto-animate="true"}
@@ -242,7 +278,8 @@ Vår nytte idag
 ::: {data-id="box3" auto-animate-delay="0" style="background: #3fb618; width: 150px; height: 100px; margin: -110px 10px 10px 290px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
 Fremtidens nytte
 :::
-::: {data-id="box6" auto-animate-delay="0" .fade-up}
+
+::: {.fade-up data-id="box6" auto-animate-delay="0"}
 ![](dokumentobjekter/figurer/dystopian_future.jpeg){width="450"}
 :::
 :::
@@ -251,7 +288,7 @@ Fremtidens nytte
 ::: {.column width="50%"}
 **Effekter av klimaendringer**
 
-::: {data-id="box5" auto-animate-delay="0" style="color: red;" .fade-down}
+::: {.fade-down data-id="box5" auto-animate-delay="0" style="color: red;"}
 Økte temperaturer
 
 Stigende havnivå
@@ -268,17 +305,64 @@ Negative helseeffekter
 ::: notes
 Bærekraftig utvikling legger til et dynamisk element til økonomisk utvikling ved å ta hensyn til fremtidige generasjoners behov. Det handler om å møte dagens behov uten å gå på bekostning av fremtidige generasjoners evne til å møte sine egne behov.
 
-**Predikerte effekter av klimaendringer** 
+**Predikerte effekter av klimaendringer**
 
-Økte temperaturer: Kan føre til mer ekstremvær, som hetebølger, tørke, flom og skogbranner. 
+Økte temperaturer: Kan føre til mer ekstremvær, som hetebølger, tørke, flom og skogbranner.
 
-Stigende havnivå: Kan true kystsamfunn og økosystemer. 
+Stigende havnivå: Kan true kystsamfunn og økosystemer.
 
-Endringer i nedbørsmønstre: Kan påvirke matproduksjon og vanntilgang. 
+Endringer i nedbørsmønstre: Kan påvirke matproduksjon og vanntilgang.
 
-Tap av biologisk mangfold: Kan føre til utryddelse av arter og tap av økosystemtjenester. 
+Tap av biologisk mangfold: Kan føre til utryddelse av arter og tap av økosystemtjenester.
 
 Negative helseeffekter: Kan øke risikoen for sykdommer og død.
+:::
+
+## Effekter av klimaendringer {auto-animate="true"}
+
+::: columns
+::: {.column width="50%"}
+Økte temperaturer
+
+```{r, fig.width=14, fig.height=10, dpi=600}
+
+temperatur_sjekk %>%
+  ggplot(aes(x = Year, y = mean_rollmean, group = 1)) +
+  geom_line(linewidth = 1) +
+  labs(title = "Global temperaturutvikling",
+       x = "",
+       y = "Temperaturavvik (°C)") +
+  theme_minimal()+
+  scale_x_yearmon(breaks = seq(1979, 2024, by = 5))+
+  geom_hline(yintercept = 0, linetype = "dashed", color = "red")+
+theme(text = element_text(size = 22))
+
+```
+:::
+
+::: {.column width="50%"}
+Stigende havnivå
+
+```{r, fig.width=14, fig.height=10, dpi=600}
+
+sea_level %>%
+ggplot(aes(x = Year, y = Data, group = 1)) +
+geom_line(color = "#10405c",linewidth = 1.5) +
+geom_ribbon(aes(ymin = 0, ymax = Data + 0.1), fill = "#1b79ac", alpha = 1) +
+labs(title = "Globalt havnivå",
+     x = "",
+     y = "Havnivåendring (mm)") +
+theme_minimal()+
+theme(text = element_text(size = 22))
+
+```
+:::
+:::
+
+::: notes
+Si noe om at gjennomsnittstemperaturen på jorden har økt med x °C per tiår siden 1980.
+
+Si noe om at havnivået har steget med en meter siden 1993.
 :::
 
 ## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
@@ -306,16 +390,13 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 
 ::: notes
-1. Utrydde fattigdom
-2. Utrydde sult. Oppnå matsikkerhet, bedre ernæring og fremme bærekraftig landbruk
-3. Sikre og fremme god helse
-4. Sikre inkluderende og rettferdig utdanning av god kvalitet
-5. Oppnå likestilling og styrke alle kvinner og jenter
-6. Sikre bærekraftig forbruk og produksjon
-
+1.  Utrydde fattigdom
+2.  Utrydde sult. Oppnå matsikkerhet, bedre ernæring og fremme bærekraftig landbruk
+3.  Sikre og fremme god helse
+4.  Sikre inkluderende og rettferdig utdanning av god kvalitet
+5.  Oppnå likestilling og styrke alle kvinner og jenter
+6.  Sikre bærekraftig forbruk og produksjon
 :::
-
-
 
 ## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
 
@@ -327,7 +408,7 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 
 ::: {data-id="box2" auto-animate-delay="0.1" style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
-2 ZERO HUNGER 
+2 ZERO HUNGER
 :::
 
 ::: {data-id="box3" auto-animate-delay="0.2" style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
@@ -347,32 +428,29 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 :::
 
-
 ::: notes
-1. Utrydde fattigdom
-2. Utrydde sult. Oppnå matsikkerhet, bedre ernæring og fremme bærekraftig landbruk
-3. Sikre og fremme god helse
-4. Sikre inkluderende og rettferdig utdanning av god kvalitet
-5. Oppnå likestilling og styrke alle kvinner og jenter
-6. Sikre bærekraftig forbruk og produksjon
+1.  Utrydde fattigdom
+2.  Utrydde sult. Oppnå matsikkerhet, bedre ernæring og fremme bærekraftig landbruk
+3.  Sikre og fremme god helse
+4.  Sikre inkluderende og rettferdig utdanning av god kvalitet
+5.  Oppnå likestilling og styrke alle kvinner og jenter
+6.  Sikre bærekraftig forbruk og produksjon
 :::
-
 
 ## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
 
 **17 hovedmål for bærekraftig utvikling og 169 delmål**
 
 ::: container
-
 ::: {data-id="box1" style="background: #eb1c2d; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 1 NO POVERTY
 :::
 
-::: {data-id="box2"  style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
-2 ZERO HUNGER 
+::: {data-id="box2" style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+2 ZERO HUNGER
 :::
 
-::: {data-id="box3"  style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+::: {data-id="box3" style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 3 GOOD HEALTH AND WELL-BEING
 :::
 
@@ -384,13 +462,12 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 5 GENDER EQUALITY
 :::
 
-::: {data-id="box6"  style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+::: {data-id="box6" style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 6 LIVSKVALITET
 :::
 :::
 
 ::: r-stack
-
 ::: {data-id="box7" style="background:#fdb713; width: 1px; height: 1px; margin: -50px 10px 50px 0;"}
 :::
 
@@ -411,9 +488,9 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 
 ::: notes
-7. Sikre tilgang til pålitelig, bærekraftig og moderne energi
-8. Fremme varig, inkluderende og bærekraftig økonomisk vekst, full sysselsetting og anstendig arbeid for alle9
-9. Bygge motstandsdyktig infrastruktur, fremme inkluderende og bærekraftig industrialisering og fremme innovasjon
+7.  Sikre tilgang til pålitelig, bærekraftig og moderne energi
+8.  Fremme varig, inkluderende og bærekraftig økonomisk vekst, full sysselsetting og anstendig arbeid for alle9
+9.  Bygge motstandsdyktig infrastruktur, fremme inkluderende og bærekraftig industrialisering og fremme innovasjon
 10. Redusere ulikhet i og mellom land
 11. Gjøre byer og bosetninger inkluderende, trygge, motstandsdyktige og bærekraftige
 12. Sikre bærekraftige forbruks- og produksjonsmønstre
@@ -424,16 +501,15 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 **17 hovedmål for bærekraftig utvikling og 169 delmål**
 
 ::: container
-
 ::: {data-id="box1" style="background: #eb1c2d; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 1 NO POVERTY
 :::
 
-::: {data-id="box2"  style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
-2 ZERO HUNGER 
+::: {data-id="box2" style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+2 ZERO HUNGER
 :::
 
-::: {data-id="box3"  style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+::: {data-id="box3" style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 3 GOOD HEALTH AND WELL-BEING
 :::
 
@@ -445,10 +521,9 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 5 GENDER EQUALITY
 :::
 
-::: {data-id="box6"  style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+::: {data-id="box6" style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 6 LIVSKVALITET
 :::
-
 
 ::: {data-id="box7" auto-animate-delay="0" style="background: #fdb713; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 7 AFFORDABLE AND CLEAN ENERGY
@@ -476,38 +551,28 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 
 ::: notes
-7. Sikre tilgang til pålitelig, bærekraftig og moderne energi
-8. Fremme varig, inkluderende og bærekraftig økonomisk vekst, full sysselsetting og anstendig arbeid for alle9
-9. Bygge motstandsdyktig infrastruktur, fremme inkluderende og bærekraftig industrialisering og fremme innovasjon
+7.  Sikre tilgang til pålitelig, bærekraftig og moderne energi
+8.  Fremme varig, inkluderende og bærekraftig økonomisk vekst, full sysselsetting og anstendig arbeid for alle9
+9.  Bygge motstandsdyktig infrastruktur, fremme inkluderende og bærekraftig industrialisering og fremme innovasjon
 10. Redusere ulikhet i og mellom land
 11. Gjøre byer og bosetninger inkluderende, trygge, motstandsdyktige og bærekraftige
 12. Sikre bærekraftige forbruks- og produksjonsmønstre
 :::
-
-
-
-
-
-
-
-
-
 
 ## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
 
 **17 hovedmål for bærekraftig utvikling og 169 delmål**
 
 ::: container
-
 ::: {data-id="box1" style="background: #eb1c2d; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 1 NO POVERTY
 :::
 
-::: {data-id="box2"  style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
-2 ZERO HUNGER 
+::: {data-id="box2" style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+2 ZERO HUNGER
 :::
 
-::: {data-id="box3"  style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+::: {data-id="box3" style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 3 GOOD HEALTH AND WELL-BEING
 :::
 
@@ -519,7 +584,7 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 5 GENDER EQUALITY
 :::
 
-::: {data-id="box6"  style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+::: {data-id="box6" style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 6 LIVSKVALITET
 :::
 
@@ -549,7 +614,6 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 
 ::: r-stack
-
 ::: {data-id="box13" style="background:#48773e; width: 1px; height: 1px; margin: -50px 10px 50px 0;"}
 :::
 
@@ -570,7 +634,6 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 
 ::: notes
-
 :::
 
 ## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
@@ -578,16 +641,15 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 **17 hovedmål for bærekraftig utvikling og 169 delmål**
 
 ::: container
-
 ::: {data-id="box1" style="background: #eb1c2d; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 1 NO POVERTY
 :::
 
-::: {data-id="box2"  style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
-2 ZERO HUNGER 
+::: {data-id="box2" style="background: #d3a029; width: 150px; height: 100px; margin: -110px 0 10px 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+2 ZERO HUNGER
 :::
 
-::: {data-id="box3"  style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+::: {data-id="box3" style="background: #279b48; width: 150px; height: 100px; margin: -110px 10px 10px 320px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 3 GOOD HEALTH AND WELL-BEING
 :::
 
@@ -599,10 +661,9 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 5 GENDER EQUALITY
 :::
 
-::: {data-id="box6"  style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
+::: {data-id="box6" style="background: #00aed9; width: 150px; height: 100px; margin: -110px 10px 10px 800px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 6 LIVSKVALITET
 :::
-
 
 ::: {data-id="box7" auto-animate-delay="0" style="background: #fdb713; width: 150px; height: 100px; margin: 10px 10px 10px 0; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px;"}
 7 AFFORDABLE AND CLEAN ENERGY
@@ -661,17 +722,8 @@ Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 17. Styrke gjennomføringen og revitalisere det globale partnerskapet for bærekraftig utvikling
 :::
 
+## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate="true" auto-animate-easing="ease-in-out"}
 
-
-
-
-
-
-
-
-
-
-## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate=true auto-animate-easing="ease-in-out"}
 
 ::: container
 ::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 100px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
@@ -687,8 +739,7 @@ Sosialt
 :::
 :::
 
-
-## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate=true auto-animate-easing="ease-in-out"}
+## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate="true" auto-animate-easing="ease-in-out"}
 
 ::: container
 ::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
@@ -703,11 +754,10 @@ Miljø
 Sosialt
 :::
 
-::: {data-id="box4" auto-animate-delay="0.5"  style="background: rgba(255, 255, 255, 0); width: 250px; height: 250px; border-radius: 200px; margin: -350px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+::: {data-id="box4" auto-animate-delay="0.5" style="background: rgba(255, 255, 255, 0); width: 250px; height: 250px; border-radius: 200px; margin: -350px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
 **Bærekraft**
 :::
 :::
-
 
 ::: notes
 Hvorfor er bærekraftig utvikling så vanskelig?
@@ -721,9 +771,7 @@ Profit - økonomisk fremgang: Å ha et langsiktig perspektiv, forbli konkurranse
 Planet - miljømessig ansvar: Å sikre at bedriftens aktivitet tar hensyn til miljøet, og strebe etter kontinuerlige forbedringer.
 
 People - sosiale forhold: Å ta hensyn til lokalmiljø og samfunnet ellers. Å inkludere sosiale, kulturelle og politiske spørsmål som er relevant for kjernevirksomheten.
-
 :::
-
 
 ## Problemet med private markeder
 
@@ -736,18 +784,12 @@ Det kan være vanskelig for private aktører å samarbeide om å løse felles pr
 :::
 
 ::: {.fragment .fade-down fragment-index="3"}
-
 Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner.
 :::
 
 ::: {.fragment .fade-down fragment-index="4"}
-
 Fellesressurser, som hav og atmosfære, kan bli overutnyttet hvis det ikke finnes regler for bruk.
-
 :::
-
-
-
 
 ::: notes
 Hvorfor offentlige inngrep?
@@ -769,7 +811,11 @@ hvorfor det er vanskelig for private markeder å oppnå bærekraftig utvikling: 
 
 ## Offentlig inngrep: Eksempel
 
-![](dokumentobjekter/figurer/plastposer.png){width="520"} Blir nok noe annet ::: notes Kan gi et eksempel på og forklare et offentlig inngrep som har til mål å fremme bærekraftig utvikling. 2 min her :::
+noe her
+
+::: notes 
+Kan gi et eksempel på og forklare et offentlig inngrep som har til mål å fremme bærekraftig utvikling. 2 min her :::
+:::
 
 ## Offentlig inngrep eksemepl forts
 
@@ -784,6 +830,12 @@ Forstår hvorfor det kan være utfordrende å få til offentlige inngrep og inte
 :::
 
 ## Hvorfor kan det være utfordrende å få til offentlige inngrep forts?
+
+::: notes
+:::
+
+
+## Konklusjon
 
 ::: notes
 :::

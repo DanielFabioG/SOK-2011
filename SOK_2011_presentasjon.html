@@ -601,6 +601,48 @@
           display:block!important;
       }</style></aside>
 </section>
+<section id="effekter-av-klimaendringer" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Effekter av klimaendringer</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Økte temperaturer</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="SOK_2011_presentasjon_files/figure-revealjs/unnamed-chunk-4-1.png" width="8400"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<p>Stigende havnivå</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="SOK_2011_presentasjon_files/figure-revealjs/unnamed-chunk-5-1.png" width="8400"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Si noe om at gjennomsnittstemperaturen på jorden har økt med x °C per tiår siden 1980.</p>
+<p>Si noe om at havnivået har steget med en meter siden 1993.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="forente-nasjoners-mål-for-bærekraftig-utvikling" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Forente nasjoners mål for bærekraftig utvikling</h2>
 <p><strong>17 hovedmål for bærekraftig utvikling og 169 delmål</strong></p>
@@ -950,7 +992,13 @@
 </div>
 </div>
 <aside class="notes">
-
+<ol start="13" type="1">
+<li>Ta umiddelbare tiltak for å bekjempe klimaendringene og konsekvensene av dem</li>
+<li>Bevare og bruke hav og marine ressurser på en bærekraftig måte</li>
+<li>Beskytte, gjenopprette og fremme bærekraftig bruk av økosystemer, sikre bærekraftig skogforvaltning, bekjempe ørkenspredning, stanse og reversere landforringelse og stanse tap av biologisk mangfold</li>
+<li>Fremme fredelige og inkluderende samfunn for bærekraftig utvikling, gi tilgang til rettferdighet for alle og bygge effektive, ansvarlige og inkluderende institusjoner på alle nivåer</li>
+<li>Styrke gjennomføringen og revitalisere det globale partnerskapet for bærekraftig utvikling</li>
+</ol>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -1062,7 +1110,20 @@
 </section>
 <section id="offentlig-inngrep-eksempel" class="slide level2">
 <h2>Offentlig inngrep: Eksempel</h2>
-<p><img data-src="dokumentobjekter/figurer/plastposer.png" width="520"> Blir nok noe annet ::: notes Kan gi et eksempel på og forklare et offentlig inngrep som har til mål å fremme bærekraftig utvikling. 2 min her :::</p>
+<p>noe her</p>
+<aside class="notes">
+<p>Kan gi et eksempel på og forklare et offentlig inngrep som har til mål å fremme bærekraftig utvikling. 2 min her :::</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="offentlig-inngrep-eksemepl-forts" class="slide level2">
 <h2>Offentlig inngrep eksemepl forts</h2>
@@ -1327,6 +1388,82 @@
         ]
       });
     </script>
+    
+
+    <script>
+
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
+      // slide changes (different for each slide format).
+
+      (function () {
+
+        // dispatch for htmlwidgets
+
+        function fireSlideEnter() {
+
+          const event = window.document.createEvent("Event");
+
+          event.initEvent("slideenter", true, true);
+
+          window.document.dispatchEvent(event);
+
+        }
+
+    
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          fireSlideEnter();
+
+    
+
+          // dispatch for shiny
+
+          if (window.jQuery) {
+
+            if (previousSlide) {
+
+              window.jQuery(previousSlide).trigger("hidden");
+
+            }
+
+            if (currentSlide) {
+
+              window.jQuery(currentSlide).trigger("shown");
+
+            }
+
+          }
+
+        }
+
+    
+
+        // hookup for slidy
+
+        if (window.w3c_slidy) {
+
+          window.w3c_slidy.add_observer(function (slide_num) {
+
+            // slide_num starts at position 1
+
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
+          });
+
+        }
+
+    
+
+      })();
+
+    </script>
+
+    
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
