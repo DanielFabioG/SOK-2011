@@ -24,10 +24,13 @@ temperatur <- read_table("http://vortex.nsstc.uah.edu/data/msu/v6.0/tlt/uahncdc_
 
 ```
 ```{r}
-sea_level <- read_table("https://deotb6e7tfubr.cloudfront.net/s3-edaf5da92e0ce48fb61175c28b67e95d/podaac-ops-cumulus-protected.s3.us-west-2.amazonaws.com/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V51/GMSL_TPJAOS_5.1.txt?A-userid=danielfabiog&Expires=1717248910&Signature=RwjG-WEwjwJv0slPicZSFxZTOjyVdAvEtdHrVWmMYflGR6h5I6enwhAzziskc6FVdIcJIQGx~iOl~m5nBxSF3C0b~O0RYvA8IGVMc73GX6YxFFNKIMDKhg7D1Qa9BWptD1-O9KgBw9aekgBFLZbpX3vncsuCUnkyguOWhGEUdxe~N6~YN61N87elUl2WgNJwcjdwCGVSSlesDt-pN1s5fq0D6P0N4w8AIOLAcQ7jMwQb5lc8s99d44i-p-MG-CnT0ekyAoy4iGf4OoKhxfdlcNCN33iM5FTg0uOjvqjjqSe5VSK~tA8go1XHQOZfbesGLP-0ohB-vucQki7Cu4gdjg__&Key-Pair-Id=K1M35K4VSQWD79")
+# sea_level <- read_table("https://deotb6e7tfubr.cloudfront.net/s3-edaf5da92e0ce48fb61175c28b67e95d/podaac-ops-cumulus-protected.s3.us-west-2.amazonaws.com/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V51/GMSL_TPJAOS_5.1.txt?A-userid=danielfabiog&Expires=1717248910&Signature=RwjG-WEwjwJv0slPicZSFxZTOjyVdAvEtdHrVWmMYflGR6h5I6enwhAzziskc6FVdIcJIQGx~iOl~m5nBxSF3C0b~O0RYvA8IGVMc73GX6YxFFNKIMDKhg7D1Qa9BWptD1-O9KgBw9aekgBFLZbpX3vncsuCUnkyguOWhGEUdxe~N6~YN61N87elUl2WgNJwcjdwCGVSSlesDt-pN1s5fq0D6P0N4w8AIOLAcQ7jMwQb5lc8s99d44i-p-MG-CnT0ekyAoy4iGf4OoKhxfdlcNCN33iM5FTg0uOjvqjjqSe5VSK~tA8go1XHQOZfbesGLP-0ohB-vucQki7Cu4gdjg__&Key-Pair-Id=K1M35K4VSQWD79")
 
 #save sea_level as csv
-write_csv(sea_level, "dokumentobjekter/csv/sea_level.csv")
+# write_csv(sea_level, "dokumentobjekter/csv/sea_level.csv")
+
+# read csv sea level
+sea_level <- read_csv("dokumentobjekter/csv/sea_level.csv")
 
 sea_level<-sea_level %>%
   select(Mean, Data) %>%
@@ -773,69 +776,261 @@ Planet - miljømessig ansvar: Å sikre at bedriftens aktivitet tar hensyn til mi
 People - sosiale forhold: Å ta hensyn til lokalmiljø og samfunnet ellers. Å inkludere sosiale, kulturelle og politiske spørsmål som er relevant for kjernevirksomheten.
 :::
 
-## Problemet med private markeder
+## Hvorfor klarer ikke private markeder å oppnå bærekraftig utvikling? {auto-animate="true" auto-animate-easing="ease-in-out"}
 
+:::: {.columns}
+
+::: {.column width="50%"}
 ::: {.fragment .fade-down fragment-index="1"}
-Private markeder tar ikke hensyn til kostnadene som påføres samfunnet av forurensning og andre negative miljøpåvirkninger.
+Vil maksimere profitt på kort sikt
 :::
 
 ::: {.fragment .fade-down fragment-index="2"}
-Det kan være vanskelig for private aktører å samarbeide om å løse felles problemer, som klimaendringer.
+Vanskelig å ta hensyn til eksterne effekter
 :::
 
 ::: {.fragment .fade-down fragment-index="3"}
-Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner.
+Urettferdig fordeling
 :::
 
 ::: {.fragment .fade-down fragment-index="4"}
-Fellesressurser, som hav og atmosfære, kan bli overutnyttet hvis det ikke finnes regler for bruk.
+Fellesressurser kan bli overutnyttet
 :::
+
+::: {.fragment .fade-down fragment-index="5"}
+Feilprising av naturressurser
+:::
+
+::: {.fragment .fade-down fragment-index="6"}
+Asymmetrisk informasjon
+:::
+
+::: {.fragment .fade-down fragment-index="7"}
+Tragedy of the commons
+:::
+
+::: {.fragment .fade-down fragment-index="8"}
+Koordineringsproblemer
+:::
+:::
+::: {.column width="50%"}
+
+::: {.fragment .fade-down fragment-index="9"}
+
+::: {.fragment .fade-left fragment-index="10"}
+
+![](dokumentobjekter/figurer/market_eq.png)
+:::
+
+:::
+:::
+::::
 
 ::: notes
 Hvorfor offentlige inngrep?
 
-Eksterne effekter: Private markeder tar ikke hensyn til kostnadene som påføres samfunnet av forurensning og andre negative miljøpåvirkninger.
+Kortsiktig fokus: Private markeder er ofte drevet av kortsiktige profittmål, som kan komme i konflikt med langsiktige bærekraftige mål. Investorer og aksjonærer forventer rask avkastning, noe som kan avlede oppmerksomheten fra nødvendige langsiktige investeringer i bærekraftige praksiser.
+
+Eksterne kostnader: Mange miljø- og samfunnsmessige kostnader, som forurensning og ressursutarming, er eksterne kostnader som ikke fanges opp i markedspriser. Bedrifter har derfor lite insentiv til å redusere disse kostnadene med mindre de er pålagt gjennom reguleringer.
 
 Koordineringsproblemer: Det kan være vanskelig for private aktører å samarbeide om å løse felles problemer, som klimaendringer.
 
-Urettferdig fordeling: Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner.
+Urettferdig fordeling: Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner. F. eks Arv av rikdom, tilgang til naturressurser idag trenger ikke bety at fremtidige generasjoner har tilgang til de samme ressursene. Tilgang til utdanning og helsevesen.
+
+Feilprising av naturressurser: Naturressurser blir ofte undervurdert eller feilpriset i markeder, noe som fører til overforbruk og degradering av miljøet. Økosystemtjenester, som rent vann og luft, har ofte ikke en markedspris som reflekterer deres sanne verdi.
+
+Asymmetrisk informasjon: Både forbrukere og produsenter kan mangle tilstrekkelig informasjon om de langsiktige konsekvensene av deres handlinger, noe som hindrer bærekraftige valg.
 
 Tragedy of the commons: Fellesressurser, som hav og atmosfære, kan bli overutnyttet hvis det ikke finnes regler for bruk.
+
+Koordineringsproblemer: Om vi lager strengere lover eller avgifter taper man konkurranseevne i forhold til andre land.
 :::
 
-## Offentlige inngrep for å fremme bærekraftig utvikling
+
+## Hvorfor klarer ikke private markeder å oppnå bærekraftig utvikling?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Vil maksimere profitt på kort sikt
+
+
+
+Vanskelig å ta hensyn til eksterne effekter
+
+
+
+Urettferdig fordeling
+
+
+
+Fellesressurser kan bli overutnyttet
+
+
+
+Feilprising av naturressurser
+
+
+
+Asymmetrisk informasjon
+
+
+
+Tragedy of the commons
+
+
+
+Koordineringsproblemer
+:::
+::: {.column width="50%"}
+
+
+![](dokumentobjekter/figurer/market_eq_2.png)
+
+
+:::
+
+::::
 
 ::: notes
-hvorfor det er vanskelig for private markeder å oppnå bærekraftig utvikling: Foreslått tidsbruk: 2 min
+Hvorfor offentlige inngrep?
+
+Kortsiktig fokus: Private markeder er ofte drevet av kortsiktige profittmål, som kan komme i konflikt med langsiktige bærekraftige mål. Investorer og aksjonærer forventer rask avkastning, noe som kan avlede oppmerksomheten fra nødvendige langsiktige investeringer i bærekraftige praksiser.
+
+Eksterne kostnader: Mange miljø- og samfunnsmessige kostnader, som forurensning og ressursutarming, er eksterne kostnader som ikke fanges opp i markedspriser. Bedrifter har derfor lite insentiv til å redusere disse kostnadene med mindre de er pålagt gjennom reguleringer.
+
+Koordineringsproblemer: Det kan være vanskelig for private aktører å samarbeide om å løse felles problemer, som klimaendringer.
+
+Urettferdig fordeling: Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner. F. eks Arv av rikdom, tilgang til naturressurser idag trenger ikke bety at fremtidige generasjoner har tilgang til de samme ressursene. Tilgang til utdanning og helsevesen.
+
+Feilprising av naturressurser: Naturressurser blir ofte undervurdert eller feilpriset i markeder, noe som fører til overforbruk og degradering av miljøet. Økosystemtjenester, som rent vann og luft, har ofte ikke en markedspris som reflekterer deres sanne verdi.
+
+Asymmetrisk informasjon: Både forbrukere og produsenter kan mangle tilstrekkelig informasjon om de langsiktige konsekvensene av deres handlinger, noe som hindrer bærekraftige valg.
+
+Tragedy of the commons: Fellesressurser, som hav og atmosfære, kan bli overutnyttet hvis det ikke finnes regler for bruk.
+
+Koordineringsproblemer: Om vi lager strengere lover eller avgifter taper man konkurranseevne i forhold til andre land.
 :::
+
+
+## Hvorfor klarer ikke private markeder å oppnå bærekraftig utvikling?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Vil maksimere profitt på kort sikt
+
+
+
+Vanskelig å ta hensyn til eksterne effekter
+
+
+
+Urettferdig fordeling
+
+
+
+Fellesressurser kan bli overutnyttet
+
+
+
+Feilprising av naturressurser
+
+
+
+Asymmetrisk informasjon
+
+
+
+Tragedy of the commons
+
+
+Koordineringsproblemer
+:::
+::: {.column width="50%"}
+
+
+![](dokumentobjekter/figurer/market_eq_3.png)
+
+
+:::
+
+::::
+
+::: notes
+Forklare figur lmao
+:::
+
 
 ## Offentlig inngrep: Eksempel
 
-noe her
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+
+::::
 
 ::: notes 
 Kan gi et eksempel på og forklare et offentlig inngrep som har til mål å fremme bærekraftig utvikling. 2 min her :::
 :::
 
-## Offentlig inngrep eksemepl forts
+## Offentlig inngrep: Eksempel
 
 ::: notes
 2 min her
 :::
 
-## Hvorfor kan det være utfordrende å få til offentlige inngrep?
+## Utfordringer med offentlige inngrep og internasjonale avtaler
+
+Vanskeligheter med å få internasjonalt samarbeid.
+
+Høye kostnader ved implementering og overvåking.
+
+Potensielle negative effekter på konkurranseevnen.
+
+Urettferdig fordeling av kostnader mellom land.
+
+Vanskelig for staten å vite hva sosialt optimum er.
+
+Mange ressurser ligger utenfor enkelte lands kontroll (havene, atmosfæren).
+
+Mye av kostnadene havner i fattige land, til tross for at de ikke har forårsaket dem.
+
+Fattige land har behov for vekst i materiell velferd.
+
+Folk i rike land ønsker ikke å tape i velferd.
 
 ::: notes
 Forstår hvorfor det kan være utfordrende å få til offentlige inngrep og internasjonale avtaler som fremmer bærekraftig utvikling. Foreslått tidsbruk: 3 min
 :::
 
-## Hvorfor kan det være utfordrende å få til offentlige inngrep forts?
+## Utfordringer med offentlige inngrep og internasjonale avtaler
 
 ::: notes
 :::
 
 
-## Konklusjon
+## Oppsummering
+
+- Klimaendringene er en av de største utfordringene vi står overfor i dag.
+
+- Brukte alle min tid og ressurser på kun presentasjonen, og glemte å jobbe med innholdet.
+
+- Bærekraftig utvikling handler om å balansere økonomiske, sosiale og miljømessige hensyn.
+
+- Private markeder har begrensninger når det gjelder å oppnå bærekraftig utvikling.
+
+- Offentlige inngrep kan være nødvendige for å fremme bærekraftig utvikling
+
 
 ::: notes
+Her starter del 2 og du kan fritt KYS.
 :::
