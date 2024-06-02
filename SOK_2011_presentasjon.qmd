@@ -64,24 +64,32 @@ temperatur_sjekk <- temperatur %>%
 Hva er bærekraftig utvikling?
 :::
 
-::: {.fragment .fade-down fragment-index="2"}
-Offentlige inngrep for å fremme bærekraftig utvikling
+::: {.fragment .fade-right fragment-index="2"}
+Effekter av klimaendringer
 :::
 
-::: {.fragment .fade-down fragment-index="3"}
-Private markeder og bærekraftig utvikling
+::: {.fragment .fade-right fragment-index="3"}
+Forente nasjoners mål for bærekraftig utvikling
 :::
 
-::: {.fragment .fade-down fragment-index="4"}
-Offentlig inngrep: Eksempel
+::: {.fragment .fade-right fragment-index="4"}
+Hvorfor er bærekraftig utvikling vanskelig?
 :::
 
-::: {.fragment .fade-down fragment-index="5"}
-Hvorfor kan det være utfordrende å få til offentlige inngrep?
+::: {.fragment .fade-right fragment-index="5"}
+Hvorfor klarer ikke private markeder å oppnå bærekraftig utvikling?
 :::
 
-::: {.fragment .fade-down fragment-index="6"}
-Konklusjon
+::: {.fragment .fade-right fragment-index="6"}
+Offentlig inngrep for bærekraftig utvikling: Montrealprotokollen
+:::
+
+::: {.fragment .fade-right fragment-index="7"}
+Utfordringer med offentlige inngrep og internasjonalt samarbeid
+:::
+
+::: {.fragment .fade-up fragment-index="8"}
+Oppsummering
 :::
 
 ## Hva er bærekraftig utvikling? {auto-animate="true" auto-animate-easing="ease-in-out"}
@@ -964,58 +972,139 @@ Forklare figur lmao
 :::
 
 
-## Offentlig inngrep: Eksempel
+## Offentlig inngrep for bærekraftig utvikling: Montrealprotokollen (1987) {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+::: {.fragment .fade-in fragment-index="1"}
+
+![](dokumentobjekter/figurer/ozonlaget.png){.absolute top=180 left=50 width="800" height="550"}
+:::
+
+
+
+
+::: notes 
+Eksempel: Montrealprotokollen er et internasjonalt avtaleverk som ble vedtatt i 1987 for å beskytte ozonlaget ved å fase ut produksjon og forbruk av stoffer som bryter ned ozonlaget, som KFK-gasser (klorfluorkarboner).
+
+
+
+:::
+
+## Offentlig inngrep for bærekraftig utvikling: Montrealprotokollen (1987)
 
 :::: {.columns}
 
-::: {.column width="40%"}
-Left column
+::: {.column width="50%"}
+
+::: {.fragment .fade-down fragment-index="2"}
+Kfk-gasser ødela ozonlaget
 :::
 
-::: {.column width="60%"}
-Right column
+::: {.fragment .fade-down fragment-index="3"}
+Ozonlaget beskytter mot UV-stråling
+:::
+
+::: {.fragment .fade-down fragment-index="4"}
+Montrealprotokollen forpliktet landene til å fase ut produksjon og forbruk av KFK-gasser.
+:::
+
+::: {.fragment .fade-down fragment-index="5"}
+Protokollen forbød produksjon og import av ozonreduserende stoffer.
+:::
+
+::: {.fragment .fade-down fragment-index="6"}
+Internasjonalt samarbeid
+:::
+
+::: {.fragment .fade-down fragment-index="6"}
+Finansiell støtte
+:::
+
+:::
+
+::: {.column width="50%"}
+::: {.fragment .fade-left fragment-index="4"}
+
+![](dokumentobjekter/figurer/montreal.jpg){width="450" height="240"}
+:::
+
+::: {.fragment .fade-left fragment-index="6"}
+
+![](dokumentobjekter/figurer/internasjonaltsamarbeid.jpg){width="450" height="240"}
+:::
 :::
 
 ::::
 
-::: notes 
-Kan gi et eksempel på og forklare et offentlig inngrep som har til mål å fremme bærekraftig utvikling. 2 min her :::
-:::
-
-## Offentlig inngrep: Eksempel
-
 ::: notes
-2 min her
+Problem: Vitenskapelig forskning på 1970-tallet viste at KFK-gasser, som ble brukt i kjøleskap, klimaanlegg og spraybokser, ødela ozonlaget.
+Ozonlaget beskytter livet på jorden mot skadelig UV-stråling, så dette var en alvorlig trussel mot menneskers helse og miljøet.
+Løsning: Montrealprotokollen forpliktet landene til å fase ut produksjon og forbruk av KFK-gasser og andre ozonreduserende stoffer.
+Protokollen har blitt endret flere ganger for å inkludere flere stoffer og for å stramme inn tidsfristene for utfasing.
+Virkemidler:
+Regulering: Protokollen forbød produksjon og import av ozonreduserende stoffer.
+Internasjonalt samarbeid: Landene samarbeidet om å utvikle og dele teknologi for å erstatte ozonreduserende stoffer.
+Finansiell støtte: Utviklingsland fikk økonomisk støtte for å omstille industrien sin.
+Resultater:
+
+Montrealprotokollen har vært svært vellykket.
+Ozonlaget er på bedringens vei og forventes å være tilbake til 1980-nivået innen midten av århundret.expand_more
+Protokollen har også hatt positive klimaeffekter, da mange ozonreduserende stoffer også er kraftige klimagasser.
+Hvorfor det fungerte:
+
+Vitenskapelig konsensus: Det var bred enighet blant forskere om at ozonlaget ble ødelagt og at KFK-gasser var årsaken.
+Globalt samarbeid: Nesten alle land i verden signerte og ratifiserte protokollen.expand_more
+Fleksibelt rammeverk: Protokollen tillot landene å tilpasse utfasingen til sine egne forhold.
+Finansiell støtte: Utviklingsland fikk hjelp til å omstille seg.
+Kontrollmekanismer: Protokollen har strenge rapporteringskrav og mekanismer for å håndheve overholdelse.
+Relevans for bærekraftig utvikling:
+
+Montrealprotokollen er et godt eksempel på hvordan offentlig inngrep kan fremme bærekraftig utvikling. Den viser at det er mulig å løse globale miljøproblemer gjennom internasjonalt samarbeid og målrettede tiltak.
+
 :::
 
 ## Utfordringer med offentlige inngrep og internasjonale avtaler
 
+::: {.fragment .fade-right fragment-index="1"}
 Vanskeligheter med å få internasjonalt samarbeid.
+:::
 
+::: {.fragment .fade-right fragment-index="2"}
 Høye kostnader ved implementering og overvåking.
+:::
 
+::: {.fragment .fade-right fragment-index="3"}
 Potensielle negative effekter på konkurranseevnen.
+:::
 
+::: {.fragment .fade-right fragment-index="4"}
 Urettferdig fordeling av kostnader mellom land.
+:::
 
+::: {.fragment .fade-right fragment-index="5"}
 Vanskelig for staten å vite hva sosialt optimum er.
+:::
 
+::: {.fragment .fade-right fragment-index="6"}
 Mange ressurser ligger utenfor enkelte lands kontroll (havene, atmosfæren).
+:::
 
+::: {.fragment .fade-right fragment-index="7"}
 Mye av kostnadene havner i fattige land, til tross for at de ikke har forårsaket dem.
+:::
 
+::: {.fragment .fade-right fragment-index="8"}
 Fattige land har behov for vekst i materiell velferd.
+:::
 
+::: {.fragment .fade-right fragment-index="9"}
 Folk i rike land ønsker ikke å tape i velferd.
+:::
+
 
 ::: notes
 Forstår hvorfor det kan være utfordrende å få til offentlige inngrep og internasjonale avtaler som fremmer bærekraftig utvikling. Foreslått tidsbruk: 3 min
 :::
 
-## Utfordringer med offentlige inngrep og internasjonale avtaler
-
-::: notes
-:::
 
 
 ## Oppsummering
