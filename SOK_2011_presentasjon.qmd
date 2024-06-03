@@ -96,7 +96,7 @@ Oppsummering
 
 ::: columns
 ::: {.column width="50%"}
-Vekst
+Økonomisk vekst
 
 ::: container
 ::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 75px; height: 50px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
@@ -106,7 +106,7 @@ Vekst
 :::
 
 ::: {.column width="50%"}
-Utvikling
+Økonomisk utvikling
 
 ::: r-stack
 ::: {data-id="box1" style="background:#3fb618; width: 350px; height: 350px; border-radius: 200px;"}
@@ -134,7 +134,7 @@ For å forstå bærekraftig utvikling er det viktig å forstå forskjellen mello
 
 ::: columns
 ::: {.column width="50%"}
-Vekst
+Økonomisk vekst
 
 ::: container
 ::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 450px; height: 300px; margin: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 40px;"}
@@ -144,7 +144,7 @@ Vekst
 :::
 
 ::: {.column width="50%"}
-Utvikling
+Økonomisk utvikling
 
 ::: r-stack
 ::: {data-id="box1" style="background:#3fb618; width: 350px; height: 350px; border-radius: 200px;"}
@@ -803,10 +803,6 @@ Vanskelig å ta hensyn til eksterne effekter
 Urettferdig fordeling
 :::
 
-::: {.fragment .fade-down fragment-index="4"}
-Fellesressurser kan bli overutnyttet
-:::
-
 ::: {.fragment .fade-down fragment-index="5"}
 Feilprising av naturressurser
 :::
@@ -875,10 +871,6 @@ Urettferdig fordeling
 
 
 
-Fellesressurser kan bli overutnyttet
-
-
-
 Feilprising av naturressurser
 
 
@@ -939,10 +931,6 @@ Vanskelig å ta hensyn til eksterne effekter
 
 
 Urettferdig fordeling
-
-
-
-Fellesressurser kan bli overutnyttet
 
 
 

@@ -130,7 +130,7 @@ Demografiske transisjoner refererer til overgangen fra høy til lav fødsels- og
 
 ### **7. Solow-modellen og ulikheter mellom rike og fattige land**
 
-**Grafisk illustrasjon**: ![Solow-modellen](https://upload.wikimedia.org/wikipedia/commons/7/71/Solowmodelcapitalaccumulation.svg){alt="Solow-modellen"}
+**Grafisk illustrasjon**:
 
 -   **Nivå på materiell velferd**: Bestemmes av kapitalmengden per arbeider. Økonomisk intuisjon tilsier at mer kapital (maskiner, bygninger) per arbeider gir høyere produktivitet og inntekt.
 
