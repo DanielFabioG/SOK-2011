@@ -64,31 +64,31 @@ temperatur_sjekk <- temperatur %>%
 Hva er bærekraftig utvikling?
 :::
 
-::: {.fragment .fade-right fragment-index="2"}
+::: {.fragment .fade-right fragment-index="1"}
 Effekter av klimaendringer
 :::
 
-::: {.fragment .fade-right fragment-index="3"}
-Forente nasjoners mål for bærekraftig utvikling
-:::
-
-::: {.fragment .fade-right fragment-index="4"}
+::: {.fragment .fade-right fragment-index="1"}
 Hvorfor er bærekraftig utvikling vanskelig?
 :::
 
-::: {.fragment .fade-right fragment-index="5"}
+::: {.fragment .fade-right fragment-index="1"}
+Forente nasjoners mål for bærekraftig utvikling
+:::
+
+::: {.fragment .fade-right fragment-index="2"}
 Hvorfor klarer ikke private markeder å oppnå bærekraftig utvikling?
 :::
 
-::: {.fragment .fade-right fragment-index="6"}
+::: {.fragment .fade-right fragment-index="2"}
 Offentlig inngrep for bærekraftig utvikling: Montrealprotokollen
 :::
 
-::: {.fragment .fade-right fragment-index="7"}
+::: {.fragment .fade-right fragment-index="2"}
 Utfordringer med offentlige inngrep og internasjonalt samarbeid
 :::
 
-::: {.fragment .fade-up fragment-index="8"}
+::: {.fragment .fade-up fragment-index="2"}
 Oppsummering
 :::
 
@@ -267,8 +267,6 @@ Fremtidens nytte
 
 ::: notes
 Bærekraftig utvikling legger til et dynamisk element til økonomisk utvikling ved å ta hensyn til fremtidige generasjoners behov. Det handler om å møte dagens behov uten å gå på bekostning av fremtidige generasjoners evne til å møte sine egne behov.
-
-Predikerte effekter av klimaendringer Økte temperaturer: Kan føre til mer ekstremvær, som hetebølger, tørke, flom og skogbranner. Stigende havnivå: Kan true kystsamfunn og økosystemer. Endringer i nedbørsmønstre: Kan påvirke matproduksjon og vanntilgang. Tap av biologisk mangfold: Kan føre til utryddelse av arter og tap av økosystemtjenester. Negative helseeffekter: Kan øke risikoen for sykdommer og død.
 :::
 
 ## Hva er bærekraftig utvikling? {auto-animate="true"}
@@ -314,7 +312,6 @@ Negative helseeffekter
 :::
 
 ::: notes
-Bærekraftig utvikling legger til et dynamisk element til økonomisk utvikling ved å ta hensyn til fremtidige generasjoners behov. Det handler om å møte dagens behov uten å gå på bekostning av fremtidige generasjoners evne til å møte sine egne behov.
 
 **Predikerte effekter av klimaendringer**
 
@@ -371,9 +368,9 @@ theme(text = element_text(size = 22))
 :::
 
 ::: notes
-Si noe om at gjennomsnittstemperaturen på jorden har økt med x °C per tiår siden 1980.
+Kode tatt fra kurs SOK-1005 arbeidskrav 1. Figuren viser troposfære-temperaturavviket fra 1979 til 2020. Global temperaturutvikling har økt siden 1979. Dette skyldes hovedsakelig menneskeskapte klimaendringer, som skyldes utslipp av drivhusgasser som karbondioksid og metan. De siste årene
 
-Si noe om at havnivået har steget med en meter siden 1993.
+Si noe om at havnivået har steget med 100mm eller 10 cm siden 1993. Dette skyldes hovedsakelig smelting av isbreer.
 :::
 
 ## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate="true" auto-animate-easing="ease-in-out"}
@@ -391,6 +388,16 @@ Miljø
 ::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
 Sosialt
 :::
+:::
+
+::: notes
+
+Man må ta hensyn til økonomiske, sosiale og miljømessige hensyn. 
+
+Disse hensynene kan ofte være motstridende. For eksempel kan økonomisk vekst føre til økt forurensning og tap av biologisk mangfold. 
+
+På den annen side kan miljøvern tiltak som reduserer forurensning og bevarer biologisk mangfold, føre til høyere kostnader og lavere økonomisk vekst.
+
 :::
 
 ## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate="true" auto-animate-easing="ease-in-out"}
@@ -414,11 +421,11 @@ Sosialt
 :::
 
 ::: notes
-Hvorfor er bærekraftig utvikling så vanskelig?
 
-Man må ta hensyn til økonomiske, sosiale og miljømessige hensyn. Disse hensynene kan ofte være motstridende. For eksempel kan økonomisk vekst føre til økt forurensning og tap av biologisk mangfold. På den annen side kan miljøvern tiltak som reduserer forurensning og bevarer biologisk mangfold, føre til høyere kostnader og lavere økonomisk vekst.
 
-Barnearbeid er et viktig hinder for bærekraftig utvikling. Det hindrer barn i å få utdanning og begrenser deres fremtidige muligheter. Å bekjempe barnearbeid krever en flerdimensjonal tilnærming som inkluderer utdanning, sosial velferd, arbeidsplasser for unge og håndheving av lover.
+Barnearbeid er et viktig hinder for bærekraftig utvikling. 
+
+Det hindrer barn i å få utdanning og begrenser deres fremtidige muligheter. Å bekjempe barnearbeid krever en flerdimensjonal tilnærming som inkluderer utdanning, sosial velferd, arbeidsplasser for unge og håndheving av lover.
 
 Profit - økonomisk fremgang: Å ha et langsiktig perspektiv, forbli konkurransedyktig og skape økonomisk verdi.
 
@@ -454,6 +461,8 @@ People - sosiale forhold: Å ta hensyn til lokalmiljø og samfunnet ellers. Å i
 :::
 
 ::: notes
+FN har i dag 193 medlemsland. Det er alle landene som er anerkjent som selvstendige stater av FN. FN har 17 hovedmål for bærekraftig utvikling og 169 delmål. Målene ble vedtatt i 2015 og skal oppnås innen 2030. Målene er universelle og gjelder for alle land, uavhengig av inntektsnivå.
+
 1.  Utrydde fattigdom
 2.  Utrydde sult. Oppnå matsikkerhet, bedre ernæring og fremme bærekraftig landbruk
 3.  Sikre og fremme god helse
@@ -493,12 +502,7 @@ People - sosiale forhold: Å ta hensyn til lokalmiljø og samfunnet ellers. Å i
 :::
 
 ::: notes
-1.  Utrydde fattigdom
-2.  Utrydde sult. Oppnå matsikkerhet, bedre ernæring og fremme bærekraftig landbruk
-3.  Sikre og fremme god helse
-4.  Sikre inkluderende og rettferdig utdanning av god kvalitet
-5.  Oppnå likestilling og styrke alle kvinner og jenter
-6.  Sikre bærekraftig forbruk og produksjon
+Noen hovedmål er sterke og andre er svake. For eksempel er målet om å utrydde fattigdom et sterkt mål, mens målet om å oppnå likestilling og styrke alle kvinner og jenter er et svakt mål. Sterke mål er klare og målbare, mens svake mål er vage og vanskelige å måle.
 :::
 
 ## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
@@ -807,10 +811,6 @@ Urettferdig fordeling
 Feilprising av naturressurser
 :::
 
-::: {.fragment .fade-down fragment-index="6"}
-Asymmetrisk informasjon
-:::
-
 ::: {.fragment .fade-down fragment-index="7"}
 Tragedy of the commons
 :::
@@ -833,19 +833,14 @@ Koordineringsproblemer
 ::::
 
 ::: notes
-Hvorfor offentlige inngrep?
 
 Kortsiktig fokus: Private markeder er ofte drevet av kortsiktige profittmål, som kan komme i konflikt med langsiktige bærekraftige mål. Investorer og aksjonærer forventer rask avkastning, noe som kan avlede oppmerksomheten fra nødvendige langsiktige investeringer i bærekraftige praksiser.
 
-Eksterne kostnader: Mange miljø- og samfunnsmessige kostnader, som forurensning og ressursutarming, er eksterne kostnader som ikke fanges opp i markedspriser. Bedrifter har derfor lite insentiv til å redusere disse kostnadene med mindre de er pålagt gjennom reguleringer.
+Eksterne kostnader: Mange miljø- og samfunnsmessige kostnader, er eksterne kostnader som ikke fanges opp i markedspriser. Bedrifter har derfor lite insentiv til å redusere disse kostnadene med mindre de er pålagt gjennom reguleringer.
 
-Koordineringsproblemer: Det kan være vanskelig for private aktører å samarbeide om å løse felles problemer, som klimaendringer.
-
-Urettferdig fordeling: Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner. F. eks Arv av rikdom, tilgang til naturressurser idag trenger ikke bety at fremtidige generasjoner har tilgang til de samme ressursene. Tilgang til utdanning og helsevesen.
+Urettferdig fordeling: Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner. tilgang til naturressurser idag trenger ikke bety at fremtidige generasjoner har tilgang til de samme ressursene. Tilgang til utdanning og helsevesen.
 
 Feilprising av naturressurser: Naturressurser blir ofte undervurdert eller feilpriset i markeder, noe som fører til overforbruk og degradering av miljøet. Økosystemtjenester, som rent vann og luft, har ofte ikke en markedspris som reflekterer deres sanne verdi.
-
-Asymmetrisk informasjon: Både forbrukere og produsenter kan mangle tilstrekkelig informasjon om de langsiktige konsekvensene av deres handlinger, noe som hindrer bærekraftige valg.
 
 Tragedy of the commons: Fellesressurser, som hav og atmosfære, kan bli overutnyttet hvis det ikke finnes regler for bruk.
 
@@ -872,10 +867,6 @@ Urettferdig fordeling
 
 
 Feilprising av naturressurser
-
-
-
-Asymmetrisk informasjon
 
 
 
@@ -896,23 +887,12 @@ Koordineringsproblemer
 ::::
 
 ::: notes
-Hvorfor offentlige inngrep?
+Vanlig marked med likevekt mellom tilbud og etterspørsel.
 
-Kortsiktig fokus: Private markeder er ofte drevet av kortsiktige profittmål, som kan komme i konflikt med langsiktige bærekraftige mål. Investorer og aksjonærer forventer rask avkastning, noe som kan avlede oppmerksomheten fra nødvendige langsiktige investeringer i bærekraftige praksiser.
+Men det finnes en marginal eksternalitetskostnad osm ikke er tatt hensyn til i prisen. Dette fører til at prisen er lavere enn marginalkostnaden, noe som fører til overforbruk og overproduksjon av varer og tjenester som har negative eksterne effekter.
 
-Eksterne kostnader: Mange miljø- og samfunnsmessige kostnader, som forurensning og ressursutarming, er eksterne kostnader som ikke fanges opp i markedspriser. Bedrifter har derfor lite insentiv til å redusere disse kostnadene med mindre de er pålagt gjennom reguleringer.
+Frittmarked likevekt her
 
-Koordineringsproblemer: Det kan være vanskelig for private aktører å samarbeide om å løse felles problemer, som klimaendringer.
-
-Urettferdig fordeling: Private markeder kan føre til økt ulikhet, både mellom og innen generasjoner. F. eks Arv av rikdom, tilgang til naturressurser idag trenger ikke bety at fremtidige generasjoner har tilgang til de samme ressursene. Tilgang til utdanning og helsevesen.
-
-Feilprising av naturressurser: Naturressurser blir ofte undervurdert eller feilpriset i markeder, noe som fører til overforbruk og degradering av miljøet. Økosystemtjenester, som rent vann og luft, har ofte ikke en markedspris som reflekterer deres sanne verdi.
-
-Asymmetrisk informasjon: Både forbrukere og produsenter kan mangle tilstrekkelig informasjon om de langsiktige konsekvensene av deres handlinger, noe som hindrer bærekraftige valg.
-
-Tragedy of the commons: Fellesressurser, som hav og atmosfære, kan bli overutnyttet hvis det ikke finnes regler for bruk.
-
-Koordineringsproblemer: Om vi lager strengere lover eller avgifter taper man konkurranseevne i forhold til andre land.
 :::
 
 
@@ -937,11 +917,6 @@ Urettferdig fordeling
 Feilprising av naturressurser
 
 
-
-Asymmetrisk informasjon
-
-
-
 Tragedy of the commons
 
 
@@ -958,7 +933,13 @@ Koordineringsproblemer
 ::::
 
 ::: notes
-Forklare figur lmao
+samfunnsoptimalt likevekt til venstre, men markedet vil produsere mer.
+
+helningen til pso er marginal eksternalitetskostnad (forursensning) + marginalkoastnad
+
+dødvektstapet oppstår i markedet fordi prisen er lavere enn marginalkostnaden. Dette fører til overforbruk og overproduksjon av varer og tjenester som har negative eksterne effekter.
+
+
 :::
 
 
@@ -1029,26 +1010,19 @@ Finansiell støtte
 Problem: Vitenskapelig forskning på 1970-tallet viste at KFK-gasser, som ble brukt i kjøleskap, klimaanlegg og spraybokser, ødela ozonlaget.
 Ozonlaget beskytter livet på jorden mot skadelig UV-stråling, så dette var en alvorlig trussel mot menneskers helse og miljøet.
 Løsning: Montrealprotokollen forpliktet landene til å fase ut produksjon og forbruk av KFK-gasser og andre ozonreduserende stoffer.
-Protokollen har blitt endret flere ganger for å inkludere flere stoffer og for å stramme inn tidsfristene for utfasing.
-Virkemidler:
-Regulering: Protokollen forbød produksjon og import av ozonreduserende stoffer.
-Internasjonalt samarbeid: Landene samarbeidet om å utvikle og dele teknologi for å erstatte ozonreduserende stoffer.
-Finansiell støtte: Utviklingsland fikk økonomisk støtte for å omstille industrien sin.
-Resultater:
+
+Tydelige insentiver (handelssanksjoner for de som ikke ble med) og finansiell støtte til utviklingsland for å hjelpe dem med å omstille seg til mer miljøvennlige alternativer.
+
+Kostnads-effektive substitutter tilgjengelige, så det var mulig å fase ut KFK-gasser uten store kostnader.
+
+Multilateral støtte og overvåking av implementeringen av protokollen.
 
 Montrealprotokollen har vært svært vellykket.
-Ozonlaget er på bedringens vei og forventes å være tilbake til 1980-nivået innen midten av århundret.expand_more
+
+Ozonlaget er på bedringens vei og forventes å være tilbake til 1980-nivået innen midten av århundret.
 Protokollen har også hatt positive klimaeffekter, da mange ozonreduserende stoffer også er kraftige klimagasser.
-Hvorfor det fungerte:
 
-Vitenskapelig konsensus: Det var bred enighet blant forskere om at ozonlaget ble ødelagt og at KFK-gasser var årsaken.
-Globalt samarbeid: Nesten alle land i verden signerte og ratifiserte protokollen.expand_more
-Fleksibelt rammeverk: Protokollen tillot landene å tilpasse utfasingen til sine egne forhold.
-Finansiell støtte: Utviklingsland fikk hjelp til å omstille seg.
-Kontrollmekanismer: Protokollen har strenge rapporteringskrav og mekanismer for å håndheve overholdelse.
-Relevans for bærekraftig utvikling:
-
-Montrealprotokollen er et godt eksempel på hvordan offentlig inngrep kan fremme bærekraftig utvikling. Den viser at det er mulig å løse globale miljøproblemer gjennom internasjonalt samarbeid og målrettede tiltak.
+Mulig å nevne plastposer, men det private markedet løste det selv med bruk av hanadelens miljøfond som økte avgiften.
 
 :::
 
@@ -1092,7 +1066,23 @@ Folk i rike land ønsker ikke å tape i velferd.
 
 
 ::: notes
-Forstår hvorfor det kan være utfordrende å få til offentlige inngrep og internasjonale avtaler som fremmer bærekraftig utvikling. Foreslått tidsbruk: 3 min
+Vanskeligheter med å få internasjonalt samarbeid. Fordi det er vanskelig å få alle land til å samarbeide om felles mål.
+
+Høye kostnader ved implementering og overvåking. Fordi det krever mye ressurser å overvåke og håndheve avtalene.
+
+Potensielle negative effekter på konkurranseevnen. På grunn av strengere lover og avgifter.
+
+Urettferdig fordeling av kostnader mellom land. Fordi noen land har større kostnader enn andre.
+
+Vanskelig for staten å vite hva sosialt optimum er. Fordi det er vanskelig å vite hva som er best for samfunnet som helhet.
+
+Mange ressurser ligger utenfor enkelte lands kontroll (havene, atmosfæren). Fordi mange ressurser er fellesgoder som ikke kan eies av enkeltland.
+
+Mye av kostnadene havner i fattige land, til tross for at de ikke har forårsaket dem. Fordi mange miljøproblemer er globale og påvirker alle land.
+
+Fattige land har behov for vekst i materiell velferd. Fordi de har store utfordringer knyttet til fattigdom og underutvikling.
+
+Folk i rike land ønsker ikke å tape i velferd. 
 :::
 
 
@@ -1108,6 +1098,8 @@ Forstår hvorfor det kan være utfordrende å få til offentlige inngrep og inte
 - Private markeder har begrensninger når det gjelder å oppnå bærekraftig utvikling.
 
 - Offentlige inngrep kan være nødvendige for å fremme bærekraftig utvikling
+
+- Spørsmål?
 
 
 ::: notes

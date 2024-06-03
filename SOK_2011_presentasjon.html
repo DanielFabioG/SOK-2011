@@ -8,7 +8,7 @@
 <link href="SOK_2011_presentasjon_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="SOK_2011_presentasjon_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="SOK_2011_presentasjon_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.550">
+  <meta name="generator" content="quarto-1.4.551">
 
   <title>Bærekraftig økonomisk vekst SOK-2011</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -338,25 +338,25 @@
 <div class="fragment fade-down" data-fragment-index="1">
 <p>Hva er bærekraftig utvikling?</p>
 </div>
-<div class="fragment fade-right" data-fragment-index="2">
+<div class="fragment fade-right" data-fragment-index="1">
 <p>Effekter av klimaendringer</p>
 </div>
-<div class="fragment fade-right" data-fragment-index="3">
-<p>Forente nasjoners mål for bærekraftig utvikling</p>
-</div>
-<div class="fragment fade-right" data-fragment-index="4">
+<div class="fragment fade-right" data-fragment-index="1">
 <p>Hvorfor er bærekraftig utvikling vanskelig?</p>
 </div>
-<div class="fragment fade-right" data-fragment-index="5">
+<div class="fragment fade-right" data-fragment-index="1">
+<p>Forente nasjoners mål for bærekraftig utvikling</p>
+</div>
+<div class="fragment fade-right" data-fragment-index="2">
 <p>Hvorfor klarer ikke private markeder å oppnå bærekraftig utvikling?</p>
 </div>
-<div class="fragment fade-right" data-fragment-index="6">
+<div class="fragment fade-right" data-fragment-index="2">
 <p>Offentlig inngrep for bærekraftig utvikling: Montrealprotokollen</p>
 </div>
-<div class="fragment fade-right" data-fragment-index="7">
+<div class="fragment fade-right" data-fragment-index="2">
 <p>Utfordringer med offentlige inngrep og internasjonalt samarbeid</p>
 </div>
-<div class="fragment fade-up" data-fragment-index="8">
+<div class="fragment fade-up" data-fragment-index="2">
 <p>Oppsummering</p>
 </div>
 </section>
@@ -1079,9 +1079,6 @@
 <div class="fragment fade-down" data-fragment-index="3">
 <p>Urettferdig fordeling</p>
 </div>
-<div class="fragment fade-down" data-fragment-index="4">
-<p>Fellesressurser kan bli overutnyttet</p>
-</div>
 <div class="fragment fade-down" data-fragment-index="5">
 <p>Feilprising av naturressurser</p>
 </div>
@@ -1131,7 +1128,6 @@
 <p>Vil maksimere profitt på kort sikt</p>
 <p>Vanskelig å ta hensyn til eksterne effekter</p>
 <p>Urettferdig fordeling</p>
-<p>Fellesressurser kan bli overutnyttet</p>
 <p>Feilprising av naturressurser</p>
 <p>Asymmetrisk informasjon</p>
 <p>Tragedy of the commons</p>
@@ -1169,7 +1165,6 @@
 <p>Vil maksimere profitt på kort sikt</p>
 <p>Vanskelig å ta hensyn til eksterne effekter</p>
 <p>Urettferdig fordeling</p>
-<p>Fellesressurser kan bli overutnyttet</p>
 <p>Feilprising av naturressurser</p>
 <p>Asymmetrisk informasjon</p>
 <p>Tragedy of the commons</p>
@@ -1310,6 +1305,7 @@
 <li><p>Bærekraftig utvikling handler om å balansere økonomiske, sosiale og miljømessige hensyn.</p></li>
 <li><p>Private markeder har begrensninger når det gjelder å oppnå bærekraftig utvikling.</p></li>
 <li><p>Offentlige inngrep kan være nødvendige for å fremme bærekraftig utvikling</p></li>
+<li><p>Spm?</p></li>
 </ul>
 <aside class="notes">
 <p>Her starter del 2 og du kan fritt KYS.</p>
@@ -1541,42 +1537,80 @@
       });
     </script>
     
+
     <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
+    
 
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
 
+    
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
+    
 
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
 
+    
+
       })();
+
     </script>
+
+    
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1654,6 +1688,24 @@
         // clear code selection
         e.clearSelection();
       });
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
@@ -1690,7 +1742,11 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
