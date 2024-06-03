@@ -15,20 +15,20 @@ format:
 
 ```{r}
 rm(list = ls())
-# import excel
+
 library(readr)
 library(zoo)
 library(tidyverse)
-
-temperatur <- read_table("http://vortex.nsstc.uah.edu/data/msu/v6.0/tlt/uahncdc_lt_6.0.txt")
-
 ```
+
 ```{r}
 # sea_level <- read_table("https://deotb6e7tfubr.cloudfront.net/s3-edaf5da92e0ce48fb61175c28b67e95d/podaac-ops-cumulus-protected.s3.us-west-2.amazonaws.com/MERGED_TP_J1_OSTM_OST_GMSL_ASCII_V51/GMSL_TPJAOS_5.1.txt?A-userid=danielfabiog&Expires=1717248910&Signature=RwjG-WEwjwJv0slPicZSFxZTOjyVdAvEtdHrVWmMYflGR6h5I6enwhAzziskc6FVdIcJIQGx~iOl~m5nBxSF3C0b~O0RYvA8IGVMc73GX6YxFFNKIMDKhg7D1Qa9BWptD1-O9KgBw9aekgBFLZbpX3vncsuCUnkyguOWhGEUdxe~N6~YN61N87elUl2WgNJwcjdwCGVSSlesDt-pN1s5fq0D6P0N4w8AIOLAcQ7jMwQb5lc8s99d44i-p-MG-CnT0ekyAoy4iGf4OoKhxfdlcNCN33iM5FTg0uOjvqjjqSe5VSK~tA8go1XHQOZfbesGLP-0ohB-vucQki7Cu4gdjg__&Key-Pair-Id=K1M35K4VSQWD79")
 
 #save sea_level as csv
 # write_csv(sea_level, "dokumentobjekter/csv/sea_level.csv")
 
+
+temperatur <- read_table("http://vortex.nsstc.uah.edu/data/msu/v6.0/tlt/uahncdc_lt_6.0.txt")
 # read csv sea level
 sea_level <- read_csv("dokumentobjekter/csv/sea_level.csv")
 
@@ -375,6 +375,59 @@ Si noe om at gjennomsnittstemperaturen på jorden har økt med x °C per tiår s
 
 Si noe om at havnivået har steget med en meter siden 1993.
 :::
+
+## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 100px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Miljø
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #2780e3; width: 250px; height: 250px; border-radius: 200px; margin: -255px 10px 10px 500px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Økonomi
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Sosialt
+:::
+:::
+
+## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+::: container
+::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Miljø
+:::
+
+::: {data-id="box2" auto-animate-delay="0.1" style="background: #2780e3; width: 250px; height: 250px; border-radius: 200px; margin: -255px 10px 10px 400px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Økonomi
+:::
+
+::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 250px; height: 250px; border-radius: 200px; margin: -110px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+Sosialt
+:::
+
+::: {data-id="box4" auto-animate-delay="0.5" style="background: rgba(255, 255, 255, 0); width: 250px; height: 250px; border-radius: 200px; margin: -350px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
+**Bærekraft**
+:::
+:::
+
+::: notes
+Hvorfor er bærekraftig utvikling så vanskelig?
+
+Man må ta hensyn til økonomiske, sosiale og miljømessige hensyn. Disse hensynene kan ofte være motstridende. For eksempel kan økonomisk vekst føre til økt forurensning og tap av biologisk mangfold. På den annen side kan miljøvern tiltak som reduserer forurensning og bevarer biologisk mangfold, føre til høyere kostnader og lavere økonomisk vekst.
+
+Barnearbeid er et viktig hinder for bærekraftig utvikling. Det hindrer barn i å få utdanning og begrenser deres fremtidige muligheter. Å bekjempe barnearbeid krever en flerdimensjonal tilnærming som inkluderer utdanning, sosial velferd, arbeidsplasser for unge og håndheving av lover.
+
+Profit - økonomisk fremgang: Å ha et langsiktig perspektiv, forbli konkurransedyktig og skape økonomisk verdi.
+
+Planet - miljømessig ansvar: Å sikre at bedriftens aktivitet tar hensyn til miljøet, og strebe etter kontinuerlige forbedringer.
+
+People - sosiale forhold: Å ta hensyn til lokalmiljø og samfunnet ellers. Å inkludere sosiale, kulturelle og politiske spørsmål som er relevant for kjernevirksomheten.
+:::
+
+
 
 ## Forente nasjoners mål for bærekraftig utvikling {auto-animate="true"}
 
@@ -731,57 +784,6 @@ Si noe om at havnivået har steget med en meter siden 1993.
 15. Beskytte, gjenopprette og fremme bærekraftig bruk av økosystemer, sikre bærekraftig skogforvaltning, bekjempe ørkenspredning, stanse og reversere landforringelse og stanse tap av biologisk mangfold
 16. Fremme fredelige og inkluderende samfunn for bærekraftig utvikling, gi tilgang til rettferdighet for alle og bygge effektive, ansvarlige og inkluderende institusjoner på alle nivåer
 17. Styrke gjennomføringen og revitalisere det globale partnerskapet for bærekraftig utvikling
-:::
-
-## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate="true" auto-animate-easing="ease-in-out"}
-
-
-::: container
-::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 100px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
-Miljø
-:::
-
-::: {data-id="box2" auto-animate-delay="0.1" style="background: #2780e3; width: 250px; height: 250px; border-radius: 200px; margin: -255px 10px 10px 500px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
-Økonomi
-:::
-
-::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
-Sosialt
-:::
-:::
-
-## Hvorfor er bærekraftig utvikling vanskelig? {auto-animate="true" auto-animate-easing="ease-in-out"}
-
-::: container
-::: {data-id="box1" auto-animate-delay="0" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px; margin: 10px 10px 10px 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
-Miljø
-:::
-
-::: {data-id="box2" auto-animate-delay="0.1" style="background: #2780e3; width: 250px; height: 250px; border-radius: 200px; margin: -255px 10px 10px 400px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
-Økonomi
-:::
-
-::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 250px; height: 250px; border-radius: 200px; margin: -110px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
-Sosialt
-:::
-
-::: {data-id="box4" auto-animate-delay="0.5" style="background: rgba(255, 255, 255, 0); width: 250px; height: 250px; border-radius: 200px; margin: -350px 10px 10px 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;"}
-**Bærekraft**
-:::
-:::
-
-::: notes
-Hvorfor er bærekraftig utvikling så vanskelig?
-
-Man må ta hensyn til økonomiske, sosiale og miljømessige hensyn. Disse hensynene kan ofte være motstridende. For eksempel kan økonomisk vekst føre til økt forurensning og tap av biologisk mangfold. På den annen side kan miljøvern tiltak som reduserer forurensning og bevarer biologisk mangfold, føre til høyere kostnader og lavere økonomisk vekst.
-
-Barnearbeid er et viktig hinder for bærekraftig utvikling. Det hindrer barn i å få utdanning og begrenser deres fremtidige muligheter. Å bekjempe barnearbeid krever en flerdimensjonal tilnærming som inkluderer utdanning, sosial velferd, arbeidsplasser for unge og håndheving av lover.
-
-Profit - økonomisk fremgang: Å ha et langsiktig perspektiv, forbli konkurransedyktig og skape økonomisk verdi.
-
-Planet - miljømessig ansvar: Å sikre at bedriftens aktivitet tar hensyn til miljøet, og strebe etter kontinuerlige forbedringer.
-
-People - sosiale forhold: Å ta hensyn til lokalmiljø og samfunnet ellers. Å inkludere sosiale, kulturelle og politiske spørsmål som er relevant for kjernevirksomheten.
 :::
 
 ## Hvorfor klarer ikke private markeder å oppnå bærekraftig utvikling? {auto-animate="true" auto-animate-easing="ease-in-out"}
